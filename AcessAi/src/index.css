@@ -1,0 +1,34 @@
+:root{
+
+    --orange:#E27B44;
+    --blackClean:#1E1E1E;
+    --blackCleanToggle:#1E1E1E;
+    --grey:#575757;
+   --fontgrown:'Lalezar',sans-serif;
+    --font:'Open Sans', sans-serif;
+    --background:#f3f3f3;
+
+}
+
+/* Dark Mode */
+
+body.DarkMode {
+  --background: #111010;
+  --blackCleanToggle: #dbd5d5; /*dark mode isso aqui*/
+  --grey:#dbd1d1;
+  
+}
+
+
+
+.theme-toggle {
+  background: none;
+  border:none;
+  /* color: var(--textColor); */
+  /* padding: 0.8rem 1.6rem; */
+  margin-left: 20px;
+  font-family: var(--font);
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
