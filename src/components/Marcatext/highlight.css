@@ -1,0 +1,22 @@
+
+
+.highlight-text {
+  position: relative;
+  /* display: inline-block; */
+  color: var(--blackClean);
+  background: linear-gradient(
+    120deg,
+    var(--orange) 0%,
+    var(--orange) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  background-position: 0 100%;
+  transition: background-size 0.8s ease;
+}
+
+
+.highlight-text.active {
+  background-size: 100% 100%;
+  font-weight: bold;
+}
