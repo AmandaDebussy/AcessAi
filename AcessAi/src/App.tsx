@@ -4,6 +4,8 @@ import NavBarMain from './components/navbar/navbar';
 import NavBarPag2 from './components/OtherNavbar/navbar2';
 import HomePag from './pages/homepag/home';
 import BaseConhecimento from './pages/baseconhecimento/basecon';
+import FormatContentAbnt from './pages/formatacaoAbnt/formatabnt'
+import ScrollToAnchor from './components/scholltop/scrolltop';
 
 
 function MainLayout({ children, darkMode, setDarkMode }: { children: React.ReactNode; darkMode: boolean; setDarkMode: React.Dispatch<React.SetStateAction<boolean>> }) {
@@ -16,7 +18,7 @@ function MainLayout({ children, darkMode, setDarkMode }: { children: React.React
 }
 
 
-function BaseConLayout({ children, darkMode, setDarkMode }: { children: React.ReactNode; darkMode: boolean; setDarkMode: React.Dispatch<React.SetStateAction<boolean>> }) {
+function OtherContentDarkLight({ children, darkMode, setDarkMode }: { children: React.ReactNode; darkMode: boolean; setDarkMode: React.Dispatch<React.SetStateAction<boolean>> }) {
   return (
     <>
       <NavBarPag2 darkMode={darkMode} setDarkMode={setDarkMode} />
@@ -42,12 +44,18 @@ function AppContent() {
           </MainLayout>
         }
       />
-      <Route path="/baseCon"element={<BaseConLayout darkMode={darkMode} setDarkMode={setDarkMode}>
+      <Route path="/baseCon"element={<OtherContentDarkLight darkMode={darkMode} setDarkMode={setDarkMode}>
             <BaseConhecimento />
-          </BaseConLayout>
+          </OtherContentDarkLight>
+        }
+      />
+      <Route path="/formatabnt"element={<OtherContentDarkLight darkMode={darkMode} setDarkMode={setDarkMode}>
+            <FormatContentAbnt/>
+          </OtherContentDarkLight>
         }
       />
     </Routes>
+    
   );
 }
 
@@ -55,6 +63,7 @@ function AppContent() {
 function App() {
   return (
     <BrowserRouter>
+    <ScrollToAnchor />
       <AppContent />
     </BrowserRouter>
   );

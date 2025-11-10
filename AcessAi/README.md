@@ -1,69 +1,70 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🌐 AcessAi
 
-Currently, two official plugins are available:
+O **AcessAi** é um projeto desenvolvido com o objetivo de **auxiliar estudantes e pessoas interessadas** a acessarem conteúdos educacionais de forma **simples, intuitiva e acessível**.  
+A plataforma busca **aproximar o conhecimento** de quem precisa, oferecendo um ambiente digital leve e fácil de navegar.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🎯 Objetivo
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+O AcessAi tem como missão **promover a inclusão digital e o acesso à informação**, oferecendo recursos que ajudam estudantes a encontrar conteúdos relevantes, orientações e ferramentas que apoiem o aprendizado autônomo.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 💡 Principais Funcionalidades
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- 🔍 **Busca inteligente** por temas e conteúdos educacionais.  
+- 📘 **Base de conhecimento** com materiais organizados por categoria.  
+- 💬 **Interação com o usuário** através de feedbacks e mensagens personalizadas.  
+- 🎨 **Interface responsiva e acessível**, com foco na usabilidade e na experiência do usuário.  
+- ⚙️ **Design modular**, permitindo expansão futura com novos recursos e integrações.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🛠️ Tecnologias Utilizadas
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- **Front-end:** React + TypeScript  
+- **Estilização:** CSS Modules  
+- **Gerenciamento de rotas:** React Router DOM  
+- **Ambiente de desenvolvimento:** Vite  
+- **Controle de versão:** Git e GitHub  
+
+---
+
+## 👩‍💻 Público-Alvo
+
+O projeto é voltado principalmente para:
+- Estudantes do ensino médio, técnico e superior;
+- Pessoas em busca de conteúdos de aprendizado acessíveis;
+- Instituições interessadas em compartilhar conhecimento de forma aberta.
+
+---
+
+## 🚀 Visão Futura
+
+O AcessAi está em constante evolução. Entre as próximas metas estão:
+- Integração com APIs educacionais externas;  
+- Área personalizada para usuários;  
+- Ferramentas de suporte e acessibilidade ampliadas.  
+
+---
+
+## 🤝 Contribuições
+
+Contribuições são bem-vindas!  
+Se você quiser colaborar com o projeto — seja com código, design, documentação ou ideias — sinta-se à vontade para abrir um **pull request** ou entrar em contato. 💬
+
+---
+
+## 📄 Licença
+
+Este projeto é de uso educacional e aberto para fins de aprendizado e aprimoramento.
+
+---
+
+## 💬 Contato
+
+Desenvolvido por **Amanda Debussy**  
+📧 Entre em contato para saber mais ou colaborar com o projeto.
+

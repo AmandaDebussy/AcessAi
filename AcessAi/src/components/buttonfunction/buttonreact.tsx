@@ -1,12 +1,12 @@
-import { useId, useState} from "react"; 
+import {useState} from "react"; //useId, tirei do textArea
 import './button.css';
 import Images from "../images";
-
+import CommentsBox  from "../contentsbox/content";
 
 export default function MyButton(){
 
 const [mostrarmensagem,setMensagem] = useState<null | string>(null);
-const textArea = useId();
+// const textArea = useId();
  
 function button(opcao: "sim" | "nao") {
      setMensagem(opcao);
@@ -28,9 +28,12 @@ function button(opcao: "sim" | "nao") {
      <>
      <p style={{ display: "block" }} className="fw-bold">Poxa, que pena 😢 
         <br />Deixe seu comentario para melhorias </p>
-     <textarea name="TextoHere" id={textArea}/>
+     {/* <textarea name="TextoHere" id={textArea}/> */}
+
+     
+    <CommentsBox visible={mostrarmensagem === "nao"} />
      <br />
-     <button className="colorcunston">Enviar</button>
+     {/* <button className="colorcunston">Enviar</button> */}
      </>
      }
    
