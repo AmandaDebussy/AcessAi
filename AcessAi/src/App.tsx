@@ -5,6 +5,7 @@ import NavBarPag2 from './components/OtherNavbar/navbar2';
 import HomePag from './pages/homepag/home';
 import BaseConhecimento from './pages/baseconhecimento/basecon';
 import FormatContentAbnt from './pages/formatacaoAbnt/formatabnt'
+import Apresentrabalho from './pages/Apresentrabalho/apresentrabalho';
 import ScrollToAnchor from './components/scholltop/scrolltop';
 
 
@@ -54,7 +55,14 @@ function AppContent() {
           </OtherContentDarkLight>
         }
       />
+
+        <Route path="/Apresentrabalho"element={<OtherContentDarkLight darkMode={darkMode} setDarkMode={setDarkMode}>
+            <Apresentrabalho/>
+          </OtherContentDarkLight>
+        }
+      />
     </Routes>
+    
     
   );
 }

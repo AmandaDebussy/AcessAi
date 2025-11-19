@@ -41,7 +41,6 @@ const YearAtual = new Date().getFullYear();
       <div className='card'>
         <div className='contentinsidecard'>
         <i><BsSearch size={44}/></i>
-        <br />
         <p>
           Pesquise sua dúvida e encontre respostas claras e confiáveis.
         </p>
@@ -84,7 +83,6 @@ const YearAtual = new Date().getFullYear();
 
       <div className='cardSecond'>
         <div className='contentinsidecard'>
-        <br />
         <p>
           Orientar no uso de normas, <span className='ColorTextCard'> facilitar a
            pesquisa </span> e oferecer ferramentas de 

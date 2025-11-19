@@ -58,6 +58,7 @@
   margin-top: 1em;
   transition: background-color 0.2s ease;
   color: var(--blackClean);
+  font-weight: bold;
 }
 
 .button:hover {
@@ -101,6 +102,7 @@
   cursor: pointer;
   transition: background-color 0.2s ease;
   margin-left: 20px;
+  
 }
 
 .copyButton:hover {

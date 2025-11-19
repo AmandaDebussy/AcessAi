@@ -94,7 +94,7 @@ function BaseConhecimento(){
 
     <section className={basecon.containersection2}>
       <div className={basecon.section2}>
-        <h1>4. Desenvolvimento: o trabalho em si</h1>
+        <h1>4.Desenvolvimento: o trabalho em si</h1>
 
          <p>O desenvolvimento contém o trabalho em si. É nessa parte que 
           você deve escrever o que aprendeu com as pesquisas que realizou 

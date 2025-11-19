@@ -30,7 +30,7 @@ function NavBarPag2({ darkMode, setDarkMode }: NavbarProps) {
              <li><Link to="/" className="fw-bold">Inicio</Link></li>
             <li><Link to="/basecon">Como montar um trabalho escolar</Link></li>
             <li><Link to="/formatabnt">Formatação nas normas da ABNT</Link></li>
-            <li><Link to="/apresentacao-trabalho">Dicas para apresentar um trabalho</Link></li>
+            <li><Link to="/Apresentrabalho">Dicas para apresentar um trabalho</Link></li>
             <li><Link to="/organizar-estudos">Como organizar os estudos</Link></li>
             <li><Link to="/aproveitar-tempo">Técnicas de gerenciamento de tempo</Link></li>
 
