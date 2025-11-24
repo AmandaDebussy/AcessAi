@@ -66,26 +66,22 @@
   top: 80px;
   left: 0;
   height: 100%;
-  width: 320px;/*mudei aqui o tamanho*/
+  width: 320px;
   background-color: var(--background);
   transform: translateX(-100%);
   transition: transform 0.4s ease-in-out, background-color 0.5s ease, color 0.5s ease;
   display: flex;
   flex-direction: column;
-  padding: 1rem 2rem 3.5em; /*coloquei um 3.5em por causa do height 100% */
+  padding: 1rem 2rem 3.5em;
   z-index: 999;
-  overflow-y: auto;
+
+  /* ESSENCIAIS */
+  overflow-y: scroll; /* FIXA a barra no Firefox */
   scrollbar-width: thin;
   scrollbar-color: var(--blackClean) var(--orange);
 }
 
-.navContainer.active {
-  transform: translateX(0); 
-}
-
-
-
-/* SCROLLBAR */
+/* Chrome / Webkit */
 .navContainer::-webkit-scrollbar {
   width: 6px;
 }
@@ -98,6 +94,12 @@
 .navContainer::-webkit-scrollbar-track {
   background-color: var(--orange);
 }
+
+.navContainer.active {
+  transform: translateX(0); 
+}
+
+
 
 
 /* LISTA DE LINKS */

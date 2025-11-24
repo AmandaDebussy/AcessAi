@@ -6,8 +6,8 @@ import HomePag from './pages/homepag/home';
 import BaseConhecimento from './pages/baseconhecimento/basecon';
 import FormatContentAbnt from './pages/formatacaoAbnt/formatabnt'
 import Apresentrabalho from './pages/Apresentrabalho/apresentrabalho';
+import OrganizaEstudo from './pages/organizarestudo/OrgEstudo';
 import ScrollToAnchor from './components/scholltop/scrolltop';
-
 
 function MainLayout({ children, darkMode, setDarkMode }: { children: React.ReactNode; darkMode: boolean; setDarkMode: React.Dispatch<React.SetStateAction<boolean>> }) {
   return (
@@ -45,7 +45,7 @@ function AppContent() {
           </MainLayout>
         }
       />
-      <Route path="/baseCon"element={<OtherContentDarkLight darkMode={darkMode} setDarkMode={setDarkMode}>
+      <Route path="/basecon"element={<OtherContentDarkLight darkMode={darkMode} setDarkMode={setDarkMode}>
             <BaseConhecimento />
           </OtherContentDarkLight>
         }
@@ -61,6 +61,15 @@ function AppContent() {
           </OtherContentDarkLight>
         }
       />
+
+<Route path="/organizarestudo"element={<OtherContentDarkLight darkMode={darkMode} setDarkMode={setDarkMode}>
+            <OrganizaEstudo/>
+          </OtherContentDarkLight>
+        }
+      />
+
+
+
     </Routes>
     
     
