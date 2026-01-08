@@ -1,0 +1,79 @@
+/* FOOTER */
+.BackgroundFooter{
+  background-color:var(--blackClean);
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  grid-template-rows:auto auto;
+  align-items:center;
+  gap:2rem;
+  padding:4em 6em;
+}
+
+.footercontent{
+  display:flex;
+  align-items:center;
+  gap:12px;
+}
+
+.footercontent img{
+  max-width:180px;
+}
+
+.contentfooterright{
+  font-family:var(--font);
+  color:var(--grey);
+  text-align:right;
+  font-size:.9rem;
+}
+
+.contentAutor{
+  font-style:italic;
+  display:block;
+  margin-bottom:5px;
+}
+
+.footerbottom{
+  grid-column:1 / -1;
+  font-family:var(--font);
+  text-align:center;
+  margin-top:3em;
+  color:#a1a1a1;
+  font-size:.7rem;
+}
+
+/* ================= RESPONSIVIDADE FOOTER ================= */
+
+/* Mobile */
+@media(max-width:768px){
+  .BackgroundFooter{
+    grid-template-columns:1fr;
+    text-align:center;
+    padding:3em 2em;
+  }
+
+  .footercontent{
+    justify-content:center;
+  }
+
+  .contentfooterright{
+    text-align:center;
+  }
+
+  .footerbottom{
+    margin-top:2em;
+  }
+}
+
+/* Tablet */
+@media(min-width:769px) and (max-width:1024px){
+  .BackgroundFooter{
+    padding:4em 5em;
+  }
+}
+
+/* Telas muito grandes */
+@media(min-width:1600px){
+  .BackgroundFooter{
+    padding:5em 20em;
+  }
+}

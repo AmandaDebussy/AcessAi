@@ -3,12 +3,6 @@
 
 
 
-
-
-
-
-
-
 .BackGroundNavBar {
   background-color: var(--orange);
   position: sticky;
@@ -16,30 +10,30 @@
   z-index: 1000;
   border-bottom: 1px solid var(--blackClean);
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   align-items: center;
-  padding: 1rem 2rem;
-  height: 60px;
+  height: 80px;
+  padding: 0 1rem;
 }
 
 .ContentLinks {
+  width: 50%;
+  max-width: 1200px;
   display: flex;
   align-items: center;
-  justify-content: center; 
-  gap: 50rem;
+  justify-content: space-between;
 }
 
 .logo {
-  width: 2.6em;
+  width: 2.4em;
 }
 
 .ContentMenu {
   display: flex;
   align-items: center;
-  gap: 0.6rem;
+  gap: 0rem; /*antes era 0.8*/
 }
 
-/* ===== HAMBURGUER ===== */
 .hamburger {
   cursor: pointer;
   font-size: 1.6rem;
@@ -48,31 +42,24 @@
   justify-content: center;
 }
 
-
-
-
-/* ===== BOTÃO DARK/LIGHT ===== */
 .modeToggle {
   cursor: pointer;
   font-size: 1.4rem;
 }
 
-
-
-
 /* ===== MENU LATERAL ===== */
 .navContainer {
   position: fixed;
-  top: 90.5px;
+  top: 80px;
   left: 0;
-  height: 90vh;
-  width: 280px;
+  height: calc(100vh - 80px);
+  width: 320px;
   background-color: var(--background);
   transform: translateX(-100%);
-  transition: transform 0.4s ease-in-out, background-color 0.5s ease, color 0.5s ease;
+  transition: transform 0.4s ease-in-out;
   display: flex;
   flex-direction: column;
-  padding: 1rem 2rem;
+  padding: 1rem 1.5rem 3.5rem;
   z-index: 999;
   overflow-y: auto;
   scrollbar-width: thin;
@@ -80,27 +67,9 @@
 }
 
 .navContainer.active {
-  transform: translateX(0); 
+  transform: translateX(0);
 }
 
-
-
-/* SCROLLBAR */
-.navContainer::-webkit-scrollbar {
-  width: 6px;
-}
-
-.navContainer::-webkit-scrollbar-thumb {
-  background-color: var(--blackClean);
-  border-radius: 4px;
-}
-
-.navContainer::-webkit-scrollbar-track {
-  background-color: var(--orange);
-}
-
-
-/* LISTA DE LINKS */
 .navContainer ul {
   list-style: none;
   padding: 0;
@@ -123,35 +92,41 @@
 
 .navContainer ul li a:hover {
   color: var(--orange);
+  font-weight: bold;
 }
-
-
 
 
 
 /* ===== RESPONSIVIDADE ===== */
-@media (max-width: 768px) {
-  .BackGroundNavBar {
-    padding: 1rem;
-  }
-
+@media (max-width: 480px) {
   .navContainer {
-    width: 250px;
+    width: 85%;
   }
 
-  .ContentLinks {
-    gap: 20rem;
+  .ContentLinks{
+   width: 75%;
+   font-size: 15px;
   }
 
-
-
-.logo {
-  width: 2.0em;
-  position: relative;
-  left: 40px;
+  .logo {
+    width: 2.2em;
+  }
 }
 
+@media (max-width: 768px) {
+  .navContainer {
+    width: 80%;
+  }
+}
 
+@media (min-width: 1024px) {
+  .ContentLinks {
+    width: 650px;
+  }
+}
 
-
+@media (min-width: 1440px) {
+  .ContentLinks {
+    max-width: 1500px;
+  }
 }

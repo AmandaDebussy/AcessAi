@@ -13,20 +13,22 @@
 /* Dark Mode */
 
 body.DarkMode {
-  --background: #111010;
+  --background: #272323;
   --blackCleanToggle: #dbd5d5; /*dark mode isso aqui*/
   --grey:#dbd1d1;
   
 }
 
-
+/*buttom mode dark and ligh*/
 
 .theme-toggle {
   background: none;
   border:none;
   /* color: var(--textColor); */
   /* padding: 0.8rem 1.6rem; */
-  margin-left: 20px;
+  /* margin-left: 60px; */
+  position: relative;
+  left: 30px;
   font-family: var(--font);
   font-size: 1.2rem;
   cursor: pointer;

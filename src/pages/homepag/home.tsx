@@ -1,13 +1,13 @@
 import './home.css';
 import Images from '../../components/images';
 import { BsBook, BsSearch, BsStar } from 'react-icons/bs'
+import FooterPag from '../../components/footer/footer'
 // import  NavBarMain from  '../../components/navbar/navbar'
 // import { useEffect,useState } from 'react';
 
 
 function HomePag() {
   
-const YearAtual = new Date().getFullYear();
   
 
   return (
@@ -41,7 +41,6 @@ const YearAtual = new Date().getFullYear();
       <div className='card'>
         <div className='contentinsidecard'>
         <i><BsSearch size={44}/></i>
-        <br />
         <p>
           Pesquise sua dúvida e encontre respostas claras e confiáveis.
         </p>
@@ -84,7 +83,6 @@ const YearAtual = new Date().getFullYear();
 
       <div className='cardSecond'>
         <div className='contentinsidecard'>
-        <br />
         <p>
           Orientar no uso de normas, <span className='ColorTextCard'> facilitar a
            pesquisa </span> e oferecer ferramentas de 
@@ -115,20 +113,9 @@ const YearAtual = new Date().getFullYear();
               para aprender! </h2>
       </div>
     </section>
-    <footer>
-      <div className='BackgroundFooter'>
-        <div className='footercontent'>
-             <img src={Images.logofooter} alt="logo" />
-        </div>
-<div className='contentfooterright'>
-  <p>''A mente que se abre para uma ideia
-             nunca volta ao seu tamanho origina'' <span className='contentAutor'>Albert Einstein</span></p>
-</div>
-       <div className='footerbottom'>
-       <p>Acessai® {YearAtual}. Todos os direitos reservados.</p>
-     </div>
-      </div>
-    </footer>
+    <div>
+       <FooterPag></FooterPag>
+    </div>
     </div>
     </>
   )

@@ -29,10 +29,10 @@ function NavBarPag2({ darkMode, setDarkMode }: NavbarProps) {
            {/* Sessão: Orientação Acadêmica */}
              <li><Link to="/" className="fw-bold">Inicio</Link></li>
             <li><Link to="/basecon">Como montar um trabalho escolar</Link></li>
-            <li><Link to="/formatacao-abnt">Formatação nas normas da ABNT</Link></li>
-            <li><Link to="/apresentacao-trabalho">Dicas para apresentar um trabalho</Link></li>
-            <li><Link to="/organizar-estudos">Como organizar os estudos</Link></li>
-            <li><Link to="/aproveitar-tempo">Técnicas de gerenciamento de tempo</Link></li>
+            <li><Link to="/formatabnt">Formatação nas normas da ABNT</Link></li>
+            <li><Link to="/Apresentrabalho">Dicas para apresentar um trabalho</Link></li>
+            <li><Link to="/organizarestudo">Como organizar os estudos</Link></li>
+            <li><Link to="/gerenciaTempo">Técnicas de gerenciamento de tempo</Link></li>
 
             {/* Sessão: Vida Universitária */}
             <li><Link to="/faculdade">Como escolher uma faculdade</Link></li>
@@ -45,7 +45,7 @@ function NavBarPag2({ darkMode, setDarkMode }: NavbarProps) {
             <li><Link to="/curriculo">Como montar um currículo</Link></li>
             <li><Link to="/entrevista">Dicas para entrevista de emprego</Link></li>
             <li><Link to="/primeiro-emprego">Conquistando o primeiro emprego</Link></li>
-            <li><Link to="/soft-skills">O que são Soft Skills</Link></li>
+            <li><Link to="/soft-skills">O que são Soft Skills e Hard Skills</Link></li>
             <li><Link to="/portfolios">Criando um portfólio profissional</Link></li>
 
               {/* Sessão: Desenvolvimento Pessoal */}

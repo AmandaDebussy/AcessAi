@@ -36,9 +36,9 @@ function NavBarPag({ darkMode, setDarkMode }: NavbarProps) {
           <ul>
             <li><Link to="/">Início</Link></li>
             <li><Link to ="/BaseCon">Base de Conhecimento</Link></li>
-            <li><Link to="">Trilha de Estudo</Link></li>
-            <li><Link to="">Dúvidas</Link></li>
-            <li><Link to="">Sobre</Link></li>
+            <li><Link to="/TrilhaDeEstudo">Trilha de Estudo</Link></li>
+            <li><Link to="/duvidas">Dúvidas</Link></li>
+            <li><Link to="/sobre">Sobre</Link></li>
           </ul>
         </nav>
       <div className={StyleNavBar.ContentMenu}>

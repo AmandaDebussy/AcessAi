@@ -19,4 +19,5 @@
 .highlight-text.active {
   background-size: 100% 100%;
   font-weight: bold;
+  letter-spacing: -1.7px;
 }

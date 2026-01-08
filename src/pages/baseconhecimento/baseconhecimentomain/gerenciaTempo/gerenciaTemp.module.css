@@ -14,7 +14,7 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: content-box;
+    box-sizing: context-box; /*alterei context para border*/
     letter-spacing:  -0.5px;;
    
   
@@ -56,8 +56,12 @@
 
 
 .text h1 {
-  max-width: 700px;/*Tive que aumentar pra ficar bacanudo*/
+  max-width: 800px;/*Tive que aumentar pra ficar bacanudo*/
   margin: 0em;
+  margin-left: 1em;
+  /*display: flex;
+  justify-content: center;
+  align-items: center; */
   font-size: 5rem;
   color: var(--orange);
 }
@@ -85,6 +89,7 @@
 .text p {
   color:var(--grey);
   font-family: var(--font);
+  margin-left: 5.5em;
   font-size: 1rem;
 }
 
@@ -155,13 +160,16 @@
   gap: 1px;
   font-family: var(--fontgrown);
   padding-top: 2em;
+  
 
 }
 
 .section2 h1 {
-  font-size: 2.5rem;
   margin: 0;
   color: var(--orange);
+  font-size: 2.5rem;
+  line-height: 1;
+
 }
 
 
@@ -210,64 +218,6 @@
 
 
 
-.BackgroundFooter{
-  background-color: var(--blackClean);
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-template-rows: auto auto;
-  align-items: center;
-  padding: 4em 15em; /*coloquei em 20 pra juntar, se der ruim eu vou tirar*/
-  /* position: relative; */
-}
-
-
-.footercontent{
-  display: flex;
-  align-items: center;
-  gap: 10px;
-
-  
-  
-}
-
-
-
-.contentfooterright{
-  font-family: var(--font);
-  color: var(--grey);
-  text-align: right;
-  font-size: 0.9rem;
-}
-
-.contentAutor{
-  font-style: italic;
-  display: block;
-  margin-bottom: 5px;
-}
-
-
-.footercontent img{
-  max-width: 200px;
-}
-
-
-
-.footerbottom{
-   grid-column: 1 / -1;
-  font-family: var(--font);
-  text-align: center;
-  margin-top: 6.5em;
-  color: #a1a1a1;
-  font-size: 0.6rem;
-  position: relative;
-  top: 40px;
-}
-
-
-
-
-
-
 
 
 
@@ -301,16 +251,26 @@
 
 .text h1{
   font-size: 0.7em;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.text p{
+  margin: 0 auto;
 }
 
 
 
-.textcontent2 {
+.textcontent2 p {
   max-width: 400px;/*vou arrumar isso aqui algum dia antes do dia 11 socorr*/
 }
 
-
-
+.section2 h1 {
+  font-size: 30px !important;
+  margin: 0;
+  color: var(--orange);
+  
+}
 
 
 }
