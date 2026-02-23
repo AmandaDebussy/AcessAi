@@ -92,7 +92,7 @@
 
 .navContainer ul li a:hover {
   color: var(--orange);
-  font-weight: bold;
+  font-weight:600;
 }
 
 

@@ -35,7 +35,7 @@ function NavBarPag2({ darkMode, setDarkMode }: NavbarProps) {
             <li><Link to="/gerenciaTempo">Técnicas de gerenciamento de tempo</Link></li>
 
             {/* Sessão: Vida Universitária */}
-            <li><Link to="/faculdade">Como escolher uma faculdade</Link></li>
+            <li><Link to="/escolherfaculdade">Como escolher uma faculdade</Link></li>
             <li><Link to="/curso-ideal">Qual curso escolher?</Link></li>
             <li><Link to="/enem">Dicas para o ENEM e vestibulares</Link></li>
             <li><Link to="/bolsas-estudo">Bolsas de estudo e financiamento</Link></li>

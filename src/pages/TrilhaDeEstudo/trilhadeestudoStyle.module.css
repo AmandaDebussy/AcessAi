@@ -1,0 +1,362 @@
+:root{
+  --orange:#E27B44;
+  --blackClean:#1E1E1E;
+  --blackCleanToggle:#1E1E1E;
+  --grey:#575757;
+  --fontgrown:'Lalezar',sans-serif;
+  --font:'Open Sans', sans-serif;
+  --background:#f3f3f3;
+}
+
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+
+.backgroundpag{
+  background-color:var(--background);
+  transition:background-color .5s ease,color .5s ease;
+}
+
+.container{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:10px;
+  font-family:var(--fontgrown);
+  padding-top:6em;
+}
+
+.text{
+  max-width:500px;
+  margin:5em;
+}
+
+.text h1{
+  font-size:3rem;
+  color:var(--orange);
+}
+
+.text h2{
+  font-size:3rem;
+  color:var(--blackCleanToggle);
+}
+
+.text p{
+  color:var(--grey);
+  font-family:var(--font);
+  font-size:1rem;
+}
+
+
+.imagecontainer {
+  width: 40%;
+  display: flex;
+  justify-content: flex-start; /* joga pro canto esquerdo */
+}
+
+.imagecontainer .mainImage {
+  max-width: 650px;
+  width: 100%;
+  border-radius: 20% 10%;
+}
+
+
+.imagecontainer {
+  position: relative; /* ESSENCIAL */
+}
+
+.bolinhas {
+  position: absolute;
+  top: 10px;   /* ajusta como quiser */
+  right: -70px;
+  width: 420px;
+  z-index: 2;
+  animation: flutuar 3.5s ease-in-out infinite;
+}
+
+@keyframes flutuar {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+  100% { transform: translateY(0); }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CARDS */
+.featurescontainer{
+  display:flex;
+  justify-content:center;
+  gap:6rem;
+  margin:2rem 0;
+  flex-wrap:wrap;
+  padding-top:4em;
+}
+
+.featurescontainerSecondCard{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  padding-top:10em;
+  gap:3rem;
+  background:url('../public/img/mainimage/flyingbook.png') center/contain no-repeat;
+}
+
+.featurescontainerSecondCard h2{
+  font-family:var(--fontgrown);
+  color:var(--orange);
+  font-size:4em;
+  text-align:center;
+}
+
+
+
+
+
+
+.cardswrapper{
+  display:flex;
+  justify-content:center;
+  gap:6rem;
+  flex-wrap:wrap;
+  margin-bottom: 10em;
+}
+
+.card,
+.cardSecond{
+  background-color:var(--blackClean);
+  color:#fff;
+  padding:2rem;
+  border-radius:15px;
+  width:250px;
+  height:300px;
+  text-align:center;
+  transition:transform .3s ease,box-shadow .3s ease;
+}
+
+.card:hover,
+.cardSecond:hover{
+  transform:translateY(-5px);
+  box-shadow:0 6px 20px rgba(0,0,0,.3);
+}
+
+.contentinsidecard{
+  margin-top:2em;
+}
+
+.contentinsidecard i{
+  font-size:2.5rem;
+  color:var(--orange);
+}
+
+.card p,
+.cardSecond p{
+  font-size:1rem;
+  line-height:2;
+  font-family:var(--font);
+}
+
+.ColorTextCard{
+  color:var(--orange);
+}
+
+
+
+
+/* SEÇÕES */
+.containerothersection,
+.containerothersection3{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:50px;
+  font-family:var(--fontgrown);
+  margin-top:8em;
+}
+
+
+
+
+.textothersection,
+.textothersection3{
+  max-width:500px;
+  margin:5em;
+}
+
+.textothersection3{
+  max-width:400px;
+}
+
+.textothersection h1,
+.textothersection3 h1{
+  font-size:4rem;
+  color:var(--orange);
+}
+
+.textothersection h2,
+.textothersection3 h2{
+  font-size:2.7rem;
+  color:var(--blackCleanToggle);
+}
+
+.imagecontainerothersection,
+.imagecontainerothersection3 img{
+  max-width:450px;
+  display:block;
+  margin-top: 4em;
+  margin-bottom: 7em;
+  
+}
+
+.imagecontainerothersection img{
+  border-radius: 50%;
+}
+
+
+/* FOOTER */
+.BackgroundFooter{
+  background-color:var(--blackClean);
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  grid-template-rows:auto auto;
+  align-items:center;
+  gap:2rem;
+  padding:4em 6em;
+}
+
+.footercontent{
+  display:flex;
+  align-items:center;
+  gap:12px;
+}
+
+.footercontent img{
+  max-width:180px;
+}
+
+.contentfooterright{
+  font-family:var(--font);
+  color:var(--grey);
+  text-align:right;
+  font-size:.9rem;
+}
+
+.contentAutor{
+  font-style:italic;
+  display:block;
+  margin-bottom:5px;
+}
+
+.footerbottom{
+  grid-column:1 / -1;
+  font-family:var(--font);
+  text-align:center;
+  margin-top:3em;
+  color:#a1a1a1;
+  font-size:.7rem;
+}
+
+
+
+
+/* ================= RESPONSIVIDADE EXTRA ================= */
+
+/* Mobile pequeno */
+@media(max-width:360px){
+  .text h1{font-size:4.2rem}
+  .text h2{font-size:1.6rem}
+  .imagecontainer img,
+  .imagecontainerothersection img,
+  .imagecontainerothersection3 img{max-width:280px; margin-top: 2em;margin-bottom: -3em; }
+  .card,.cardSecond{width:220px;height:auto}
+}
+
+
+
+
+
+/* Mobile médio */
+@media(max-width:480px){
+  .text{margin:2.5em}
+  .text h1{font-size:4.8rem}
+  .featurescontainer{gap:3rem}
+  .featurescontainerSecondCard h2{font-size:2.8rem}
+  .textothersection,
+  .textothersection3{margin:3em}
+}
+
+
+
+
+@media(max-width:768px){
+  .BackgroundFooter{
+    grid-template-columns:1fr;
+    text-align:center;
+    padding:3em 2em;
+  }
+
+  .footercontent{
+    justify-content:center;
+  }
+
+  .contentfooterright{
+    text-align:center;
+  }
+
+  .footerbottom{
+    margin-top:2em;
+  }
+}
+
+
+/* Tablet */
+@media(min-width:769px) and (max-width:1024px){
+  .container,
+  .containerothersection,
+  .containerothersection3{gap:30px}
+  .text{margin:3em}
+  .text h1{font-size:6rem}
+  .featurescontainer{gap:4rem}
+  .BackgroundFooter{padding:4em 5em}
+}
+
+
+
+
+/* Desktop grande */
+@media(min-width:1280px){
+  .container,
+  .containerothersection,
+  .containerothersection3{
+    max-width:1400px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .featurescontainer{gap:7rem}
+  .text h1{font-size:7.5rem}
+}
+
+
+
+/* Telas muito grandes */
+@media(min-width:1600px){
+  .container,
+  .containerothersection,
+  .containerothersection3{max-width:1600px}
+  .text h1{font-size:4.5rem}/*alterei de 8 pra 4.5*/
+  .featurescontainerSecondCard h2{font-size:4.5rem}
+  .BackgroundFooter{padding:5em 20em}
+}

@@ -17,7 +17,7 @@ import OrganizaEstudo from './pages/baseconhecimento/baseconhecimentomain/organi
 // import CuidadoSaudeMental from './pages/baseconhecimento/baseconhecimentomain/CuidadoSaudeMental';
 // import dicasEmprego from './pages/baseconhecimento/baseconhecimentomain/DicasEmprego';
 // import dicasEnem from './pages/baseconhecimento/baseconhecimentomain/dicasEnem';
-// import escolherFaculdade from './pages/baseconhecimento/baseconhecimentomain/escolherfaculdade';
+import EscolhaFaculdade from './pages/baseconhecimento/baseconhecimentomain/escolherfaculdade/EscolhaFacul';
 // import FerramentasOnline from './pages/baseconhecimento/baseconhecimentomain/FerramentasOnline';
 // import futuroProfissional from './pages/baseconhecimento/baseconhecimentomain/futuroProfissional';
 // import  from './pages/baseconhecimento/baseconhecimentomain/'
@@ -95,6 +95,12 @@ function AppContent() {
       />
 
 
+
+
+
+
+
+{/* //outro estilo de darkmode */}
       
       <Route path="/basecon"element={<OtherContentDarkLight darkMode={darkMode} setDarkMode={setDarkMode}>
             <BaseConhecimento />
@@ -126,6 +132,12 @@ function AppContent() {
         }
       />
 
+
+     <Route path="/escolherfaculdade" element={<OtherContentDarkLight darkMode={darkMode} setDarkMode={setDarkMode}>
+          <EscolhaFaculdade/>
+        </OtherContentDarkLight>
+        }
+      />
 
 
 

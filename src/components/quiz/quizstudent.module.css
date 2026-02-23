@@ -1,0 +1,145 @@
+:root{
+  --orange:#E27B44;
+  --blackClean:#1E1E1E;
+  --blackCleanToggle:#1E1E1E;
+  --grey:#575757;
+  --fontgrown:'Lalezar',sans-serif;
+  --font:'Open Sans', sans-serif;
+  --background:#f3f3f3;
+}
+
+
+.backgroundQuizColor {
+  background-color: var(--orange);
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40em;
+  width: 50%;
+  padding: 0 1rem;
+  margin: 0 auto ;
+  border-radius: 10px;
+}
+
+
+
+
+.buttonStyleMode{
+     background-color:var(--blackCleanToggle);
+     color:var(--background);
+     padding: 20px;
+     border-radius: 10px;
+     border: none;
+     font-size: large;
+}
+
+
+
+.quizContainer{
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+  font-family: var(--font);
+  color: var(--background);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Progresso */
+.progress{
+  font-size: 14px;
+  opacity: 0.8;
+  letter-spacing: 1px;
+  color: var(--blackClean);
+}
+
+/* Pergunta */
+.question{
+  font-family: var(--fontgrown);
+  font-size: 24px;
+  line-height: 1.4;
+  color: var(--blackClean);
+}
+
+/* Container das opções */
+.optionsContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+/* Botões das opções */
+.optionButton{
+  background-color: var(--background);
+  color: var(--blackClean);
+  border: none;
+  padding: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: var(--font);
+  transition: 0.3s ease;
+}
+
+.optionButton:hover{
+  background-color: var(--blackClean);
+  color: var(--background);
+  transform: scale(1.02);
+}
+
+/* Resultado */
+.resultTitle{
+  font-family: var(--fontgrown);
+  font-size: 26px;
+}
+
+.resultText{
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 500px;
+  margin: 0 auto;
+  color: var(--blackClean);
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*ajustar tamanho de tela do quiz*/
+@media(max-width:360px){
+  .backgroundQuizColor{width: 100%;}
+}
+
+
+
+
+
+
+@media(max-width:480px){
+  .backgroundQuizColor{width: 100%;}
+}
+
+@media(max-width:768px){
+  .backgroundQuizColor{width: 100%;}
+}
+
+
+/* Tablet */
+@media(min-width:769px) and (max-width:1024px){
+ .backgroundQuizColor{width: 100%;}
+}
+
+
+@media(max-width:1080px){
+.backgroundQuizColor{width: 100%;}
+}

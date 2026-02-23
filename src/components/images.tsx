@@ -23,6 +23,10 @@ import textuais from '../../public/img/format/elementostextuais2.webp'
 import referencias from '../../public/img/format/referencias4-cke.webp'
 import anexo from '../../public/img/format/apendicea.webp'
 import indice from '../../public/img/format/ndicefeito.webp'
+import map from '../../public/img/trilhaEstudo/map.png'
+import rapazcaminhando from '../../public/img/trilhaEstudo/rapazcaminhando.png'
+import vetordebolinhas from '../../public/img/trilhaEstudo/Vector.png'
+import alvo from '../../public/img/trilhaEstudo/alvo.png'
 
 
 
@@ -57,7 +61,11 @@ sumario,
 textuais,
 referencias,
 anexo,
-indice
+indice,
+map,
+rapazcaminhando,
+vetordebolinhas,
+alvo
 
 
 }
