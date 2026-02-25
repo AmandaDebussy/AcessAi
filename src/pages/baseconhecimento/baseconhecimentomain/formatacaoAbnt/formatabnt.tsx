@@ -35,7 +35,7 @@ export default function FormatContentAbnt(){
       {/*a partir  daqui as classes*/}
       <section className={formatContent.containersection2}>
       <div className={formatContent.section2}>
-        <h1>1. Estrutura do trabalho acadêmico</h1>
+        <h1 style={{fontSize:"2rem",lineHeight: "1.2", wordBreak: "break-all" ,whiteSpace:"pre-wrap" }}>1. Estrutura do trabalho acadêmico</h1>
          <p>Os trabalhos devem ser estruturados conforme mostra a imagem abaixo:</p>
       </div>
       <div className={formatContent.contentsumary}>
@@ -53,7 +53,7 @@ export default function FormatContentAbnt(){
 
     <section className={formatContent.containersection2}>
       <div className={formatContent.section2}>
-        <h1>2. Lombada</h1>
+        <h1 style={{fontSize:"2rem",lineHeight: "1.2", wordBreak: "break-all" ,whiteSpace:"pre-wrap" }}>2. Lombada</h1>
          <p>O título da lombada deve ser centralizado e impresso no mesmo sentido do nome do autor. Apresentada conforme a ABNT NBR 12225,
            a lombada deve conter os seguintes elementos:</p>
        <div className={formatContent.contentsumary}>
@@ -71,7 +71,7 @@ export default function FormatContentAbnt(){
 
      <section className={formatContent.containersection2}>
       <div className={formatContent.section2}>
-        <h1>3. Folha do rosto</h1>
+        <h1 style={{fontSize:"2rem",lineHeight: "1.2", wordBreak: "break-all" ,whiteSpace:"pre-wrap" }}>3. Folha do rosto</h1>
          <p>A parte da frente deve conter:</p>
 
         <div className={formatContent.contentsumary}>
@@ -93,7 +93,7 @@ Dados de catalogação-na-publicação, conforme o Código de Catalogação Angl
 
     <section className={formatContent.containersection2}>
       <div className={formatContent.section2}>
-        <h1>4. Errata</h1>
+        <h1 style={{fontSize:"2rem",lineHeight: "1.2", wordBreak: "break-all" ,whiteSpace:"pre-wrap" }}>4. Errata</h1>
 
          <p>Inserida depois da folha de rosto (elemento obrigatório), a errata pode ser apresentada em folha solta ou encartada ao trabalho. Deve conter:</p>
 
@@ -117,7 +117,7 @@ Dados de catalogação-na-publicação, conforme o Código de Catalogação Angl
 
     <section className={formatContent.containersection2}>
       <div className={formatContent.section2}>
-        <h1>5. Folha de aprovação</h1>
+        <h1 style={{fontSize:"2rem",lineHeight: "1.2", wordBreak: "break-all" ,whiteSpace:"pre-wrap" }}>5. Folha de aprovação</h1>
         
         <div className={formatContent.contentsumary}>
          <ul>
@@ -135,7 +135,7 @@ Dados de catalogação-na-publicação, conforme o Código de Catalogação Angl
 
     <section className={formatContent.containersection2}>
       <div className={formatContent.section2}>
-        <h1>6. Dedicatória</h1>
+        <h1 style={{fontSize:"2rem",lineHeight: "1.2", wordBreak: "break-all" ,whiteSpace:"pre-wrap" }}>6. Dedicatória</h1>
          <p>Deve ser inserida depois da folha de aprovação, que é um elemento obrigatório. A dedicatória não tem título.</p>
         <img src={Images.dedicatoria} alt="folha de agradecimento" />
          </div>
@@ -143,7 +143,7 @@ Dados de catalogação-na-publicação, conforme o Código de Catalogação Angl
 
     <section className={formatContent.containersection2}>
       <div className={formatContent.section2}>
-        <h1>7. Epígrafe</h1>
+        <h1 style={{fontSize:"2rem",lineHeight: "1.2", wordBreak: "break-all" ,whiteSpace:"pre-wrap" }}>7. Epígrafe</h1>
          <p>Elaborados conforme a ABNT NBR 6028, os resumos devem conter <HighlightText>objetivo, método, resultados e conclusões do trabalho.</HighlightText></p>
          <p>Preferencialmente em um único parágrafo, e contendo entre 150 a 500 palavras, devem ser escritos na voz ativa e na terceira pessoa do singular.</p>
          <p>Os resumos são finalizados pelas <strong>palavras-chave,</strong> as quais devem ser separadas entre si por pontos.</p>
@@ -153,7 +153,7 @@ Dados de catalogação-na-publicação, conforme o Código de Catalogação Angl
 
       <section className={formatContent.containersection2}>
       <div className={formatContent.section2}>
-        <h1>8. Listas de ilustrações e tabelas</h1>
+        <h1 style={{fontSize:"2rem",lineHeight: "1.2", wordBreak: "break-all" ,whiteSpace:"pre-wrap" }}>8. Listas de ilustrações e tabelas</h1>
          <p>Os títulos das listas de ilustrações e tabelas devem ser centralizados. As listas, apresentada pela ordem das ilustrações ou tabelas inseridas no trabalho, deve conter:</p>
          <div className={formatContent.contentsumary}>
          <ul>
@@ -171,7 +171,7 @@ Dados de catalogação-na-publicação, conforme o Código de Catalogação Angl
 
     <section className={formatContent.containersection2}>
       <div className={formatContent.section2}>
-        <h1>9. Lista de abreviaturas e siglas</h1>
+        <h1 style={{fontSize:"2rem",lineHeight: "1.2", wordBreak: "break-all" ,whiteSpace:"pre-wrap" }}>9. Lista de abreviaturas e siglas</h1>
          <p>As siglas devem ser apresentadas em ordem alfabética, seguidas da forma por extenso. O título da lista de abreviaturas e siglas deve ser centralizado.</p>
          <img src={Images.sigras} alt="folha de siglas" />
          </div>
@@ -179,7 +179,7 @@ Dados de catalogação-na-publicação, conforme o Código de Catalogação Angl
 
      <section className={formatContent.containersection2}>
       <div className={formatContent.section2}>
-        <h1>10. Lista de símbolos</h1>
+        <h1 style={{fontSize:"2rem",lineHeight: "1.2", wordBreak: "break-all" ,whiteSpace:"pre-wrap" }}>10. Lista de símbolos</h1>
          <p>Apresentada pela ordem dos símbolos inseridos no trabalho, seguido do seu significado. O título da lista de símbolos deve ser centralizado.</p>
          <img src={Images.simbolos} alt="folha de simbolos" />
          </div>
@@ -187,7 +187,7 @@ Dados de catalogação-na-publicação, conforme o Código de Catalogação Angl
 
         <section className={formatContent.containersection2}>
       <div className={formatContent.section2}>
-        <h1>11. Sumario</h1>
+        <h1 style={{fontSize:"2rem",lineHeight: "1.2", wordBreak: "break-all" ,whiteSpace:"pre-wrap" }}>11. Sumario</h1>
          <p>Elaborado conforme a ABNT NBR 6027.</p>
          <p>Os elementos pré-textuais — folha de rosto, folha de aprovação, resumos na língua portuguesa e estrangeira — não podem ser incluídos no sumário.</p>
          <img src={Images.sumario} alt="folha de sumarios" />
@@ -196,7 +196,7 @@ Dados de catalogação-na-publicação, conforme o Código de Catalogação Angl
 
           <section className={formatContent.containersection2}>
       <div className={formatContent.section2}>
-        <h1>12. Elementos textuais </h1>
+        <h1 style={{fontSize:"2rem",lineHeight: "1.2", wordBreak: "break-all" ,whiteSpace:"pre-wrap" }}>12. Elementos textuais </h1>
           <div className={formatContent.contentsumary}>
          <ul>
           <li><strong>Introdução:</strong> Parte do texto em que é feita a delimitação do tema do trabalho;</li>
@@ -211,7 +211,7 @@ Dados de catalogação-na-publicação, conforme o Código de Catalogação Angl
 
     <section className={formatContent.containersection2}>
       <div className={formatContent.section2}>
-        <h1>13. Elementos textuais </h1>
+        <h1 style={{fontSize:"2rem",lineHeight: "1.2", wordBreak: "break-all" ,whiteSpace:"pre-wrap" }}>13. Elementos textuais </h1>
         <p>Elaboradas conforme a ABNT NBR 6023. As referências devem conter:</p>
           <div className={formatContent.contentsumary}>
          <ul>
@@ -235,14 +235,14 @@ Dados de catalogação-na-publicação, conforme o Código de Catalogação Angl
 
             <section className={formatContent.containersection2}>
       <div className={formatContent.section2}>
-        <h1>14. Glossario </h1>
+        <h1 style={{fontSize:"2rem",lineHeight: "1.2", wordBreak: "break-all" ,whiteSpace:"pre-wrap" }}>14. Glossario </h1>
          <p>Deve ser apresentado em ordem alfabética. O título do glossário deve ser centralizado</p>
           <img src={Images.anexo} alt="folha apendice" />
          </div>
        </section>
                <section className={formatContent.containersection2}>
       <div className={formatContent.section2}>
-        <h1>15. Indice </h1>
+        <h1 style={{fontSize:"2rem",lineHeight: "1.2", wordBreak: "break-all" ,whiteSpace:"pre-wrap" }}>15. Indice </h1>
          <p>Apresentado no fim do trabalho, o índice deve ser elaborado conforme a ABNT NBR 6034 e o seu título deve ser centralizado.</p>
           <p>O índice pode ser organizado por autores, assuntos, títulos, entre outros.</p>
           <img src={Images.indice} alt="folha de indice" />
@@ -251,7 +251,7 @@ Dados de catalogação-na-publicação, conforme o Código de Catalogação Angl
 
        <section className={formatContent.containersection2}>
       <div className={formatContent.section2}>
-        <h1>16. Formatação</h1>
+        <h1 style={{fontSize:"2rem",lineHeight: "1.2", wordBreak: "break-all" ,whiteSpace:"pre-wrap" }}>16. Formatação</h1>
          <p className="fs-4"><strong>Papel de cores:</strong></p>
 
       </div>
@@ -328,7 +328,7 @@ Professora, produz conteúdos educativos desde 2015.
 
   </article>
   <footer>
-    <FooterPag></FooterPag>
+    <FooterPag/>
     </footer>
 </div>
         </>

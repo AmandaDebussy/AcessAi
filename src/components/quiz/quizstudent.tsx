@@ -7,6 +7,7 @@ interface Opcao {
   texto: string;
   categoria: Categoria;
   valor: number;
+  opcao:string;
 }
 
 const descricoes: Record<Categoria, string> = {

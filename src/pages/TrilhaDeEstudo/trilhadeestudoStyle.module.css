@@ -32,10 +32,11 @@
 .text{
   max-width:500px;
   margin:5em;
+
 }
 
 .text h1{
-  font-size:3rem;
+  font-size:4.5rem;
   color:var(--orange);
 }
 
@@ -65,12 +66,12 @@
 
 
 .imagecontainer {
-  position: relative; /* ESSENCIAL */
+  position: relative; 
 }
 
 .bolinhas {
   position: absolute;
-  top: 10px;   /* ajusta como quiser */
+  top: 10px;   
   right: -70px;
   width: 420px;
   z-index: 2;
@@ -112,6 +113,7 @@
   padding-top:10em;
   gap:3rem;
   background:url('../public/img/mainimage/flyingbook.png') center/contain no-repeat;
+  text-decoration: underline 2px var(--blackCleanToggle);
 }
 
 .featurescontainerSecondCard h2{
@@ -200,11 +202,22 @@
   max-width:400px;
 }
 
-.textothersection h1,
+.textothersection h1{
+  font-size:3.5rem;
+  color:var(--orange);
+  margin-top: -3.5em;
+}
+
 .textothersection3 h1{
-  font-size:4rem;
+   font-size:3.5rem;
   color:var(--orange);
 }
+
+
+
+
+
+
 
 .textothersection h2,
 .textothersection3 h2{
@@ -218,6 +231,7 @@
   display:block;
   margin-top: 4em;
   margin-bottom: 7em;
+  border-radius: 50%;
   
 }
 
@@ -280,7 +294,7 @@
   .text h2{font-size:1.6rem}
   .imagecontainer img,
   .imagecontainerothersection img,
-  .imagecontainerothersection3 img{max-width:280px; margin-top: 2em;margin-bottom: -3em; }
+  .imagecontainerothersection3 img{max-width:280px; margin-top: 0em;margin-bottom: -3em; }
   .card,.cardSecond{width:220px;height:auto}
 }
 
@@ -291,7 +305,10 @@
 /* Mobile médio */
 @media(max-width:480px){
   .text{margin:2.5em}
-  .text h1{font-size:4.8rem}
+  .text h1{
+    font-size:4.8rem;
+    margin-top:-1em;
+    }
   .featurescontainer{gap:3rem}
   .featurescontainerSecondCard h2{font-size:2.8rem}
   .textothersection,
@@ -301,11 +318,61 @@
 
 
 
-@media(max-width:768px){
+@media (max-width: 768px){
+
+  /* HERO */
+  .container{
+    flex-direction:column;
+    text-align:center;
+    gap:2rem;
+   
+  }
+
+  .imagecontainer{
+    width:100%;
+    position: relative;
+    bottom: 100px;  
+  }
+
+
+  .bolinhas{
+    display:none;
+  }
+
+  /* CARDS */
+  .featurescontainer,
+  .cardswrapper{
+    flex-direction:column;
+    align-items:center;
+    gap:2rem;
+  }
+
+  .card,
+  .cardSecond{
+    width:70%;
+    max-width:350px;
+  }
+
+  /* OUTRAS SEÇÕES */
+  .containerothersection,
+  .containerothersection3{
+    flex-direction:column;
+    text-align:center;
+    gap:2rem;
+    margin-top:4em;
+  }
+
+  .imagecontainerothersection img,
+  .imagecontainerothersection3 img{
+    max-width:100%;
+    margin-top: -4em;
+  }
+
+  /* FOOTER */
   .BackgroundFooter{
     grid-template-columns:1fr;
+    padding:3em 1.5em;
     text-align:center;
-    padding:3em 2em;
   }
 
   .footercontent{
@@ -315,48 +382,4 @@
   .contentfooterright{
     text-align:center;
   }
-
-  .footerbottom{
-    margin-top:2em;
-  }
-}
-
-
-/* Tablet */
-@media(min-width:769px) and (max-width:1024px){
-  .container,
-  .containerothersection,
-  .containerothersection3{gap:30px}
-  .text{margin:3em}
-  .text h1{font-size:6rem}
-  .featurescontainer{gap:4rem}
-  .BackgroundFooter{padding:4em 5em}
-}
-
-
-
-
-/* Desktop grande */
-@media(min-width:1280px){
-  .container,
-  .containerothersection,
-  .containerothersection3{
-    max-width:1400px;
-    margin-left:auto;
-    margin-right:auto;
-  }
-  .featurescontainer{gap:7rem}
-  .text h1{font-size:7.5rem}
-}
-
-
-
-/* Telas muito grandes */
-@media(min-width:1600px){
-  .container,
-  .containerothersection,
-  .containerothersection3{max-width:1600px}
-  .text h1{font-size:4.5rem}/*alterei de 8 pra 4.5*/
-  .featurescontainerSecondCard h2{font-size:4.5rem}
-  .BackgroundFooter{padding:5em 20em}
 }

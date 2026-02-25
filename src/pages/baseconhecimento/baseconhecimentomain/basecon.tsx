@@ -2,6 +2,7 @@ import basecon from './basecon.module.css'
 import HighlightText from '../../../components/Marcatext/hightlight'
 import  MyButton  from '../../../components/buttonfunction/buttonreact'
 import FooterPag from '../../../components/footer/footer'
+import ChatBot from '../../../components/chatbot/chatbot'
 // import Images from '../../../components/images'
 
 function BaseConhecimento(){
@@ -12,6 +13,7 @@ function BaseConhecimento(){
 
     return(
   <>
+   <ChatBot />
 <div className={basecon.backgroundpag}>
    <section className={basecon.container}>
       <div className={basecon.text}>
@@ -47,7 +49,7 @@ function BaseConhecimento(){
       {/*a partir  daqui as classes*/}
       <section className={basecon.containersection2}>
       <div className={basecon.section2}>
-        <h1>1. Capa: identificação</h1>
+        <h1 style={{fontSize:"2rem",lineHeight: "1.2", wordBreak: "break-all" ,whiteSpace:"pre-wrap" }}>1. Capa: identificação</h1>
          <p>A capa é a identificação do trabalho. Ela deve conter:</p>
       </div>
       <div className={basecon.contentsumary}>
@@ -63,7 +65,7 @@ function BaseConhecimento(){
 
     <section className={basecon.containersection2}>
       <div className={basecon.section2}>
-        <h1>2. Sumário: estrutura</h1>
+        <h1 style={{fontSize:"2rem",lineHeight: "1.2", wordBreak: "break-all" ,whiteSpace:"pre-wrap" }}>2. Sumário: estrutura</h1>
          <p>O sumário mostra como o trabalho foi estruturado, indicando as páginas de cada uma das suas partes.</p>
 
          <p>Lembrando que o número da <HighlightText>página não deve ser impresso na folha do sumário.</HighlightText> A impressão das
@@ -79,7 +81,7 @@ function BaseConhecimento(){
 
      <section className={basecon.containersection2}>
       <div className={basecon.section2}>
-        <h1>3. Introdução: definição dos objetivos</h1>
+        <h1 style={{fontSize:"2rem",lineHeight: "1.2", wordBreak: "break-all" ,whiteSpace:"pre-wrap" }}>3. Introdução: definição dos objetivos</h1>
          <p>A introdução é um texto curto que deve indicar qual o assunto abordado no trabalho, bem como explicar o seu objetivo.</p>
 
          <p>Apesar de ser uma das partes iniciais do trabalho, a introdução deve 
@@ -95,7 +97,7 @@ function BaseConhecimento(){
 
     <section className={basecon.containersection2}>
       <div className={basecon.section2}>
-        <h1>4.Desenvolvimento: o trabalho em si</h1>
+        <h1 style={{fontSize:"2rem",lineHeight: "1.2", wordBreak: "break-all" ,whiteSpace:"pre-wrap" }}>4.Desenvolvimento: o trabalho em si</h1>
 
          <p>O desenvolvimento contém o trabalho em si. É nessa parte que 
           você deve escrever o que aprendeu com as pesquisas que realizou 
@@ -115,7 +117,7 @@ function BaseConhecimento(){
 
     <section className={basecon.containersection2}>
       <div className={basecon.section2}>
-        <h1>5. Conclusão: resultado final</h1>
+        <h1 style={{fontSize:"2rem",lineHeight: "1.2", wordBreak: "break-all" ,whiteSpace:"pre-wrap" }}>5. Conclusão: resultado final</h1>
         
          <p>A conclusão finaliza o trabalho, devendo destacar as suas ideias principais. 
           Ela deve indicar quais as considerações tiradas
@@ -131,7 +133,7 @@ function BaseConhecimento(){
 
     <section className={basecon.containersection2}>
       <div className={basecon.section2}>
-        <h1>6. Bibliografia: fontes pesquisadas</h1>
+        <h1 style={{fontSize:"2rem",lineHeight: "1.2", wordBreak: "break-all" ,whiteSpace:"pre-wrap" }}>6. Bibliografia: fontes pesquisadas</h1>
         
          
          <p>A bibliografia contém a lista do material consultado para a elaboração do trabalho - livros, jornais, revistas, sites.</p>
@@ -172,7 +174,7 @@ Professora, produz conteúdos educativos desde 2015.
      </div>
   </article>
     <div>
-      <FooterPag></FooterPag>
+      <FooterPag/>
     </div>
 </div>
         </>

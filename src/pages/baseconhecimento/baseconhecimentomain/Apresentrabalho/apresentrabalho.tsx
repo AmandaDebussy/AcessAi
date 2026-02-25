@@ -28,7 +28,7 @@ export default function Apresentrabalho(){
       {/*a partir  daqui as classes*/}
       <section className={StyleTrabalho.containersection2}>
       <div className={StyleTrabalho.section2}>
-        <h1>1. Estude profundamente o tema </h1>
+        <h1 style={{fontSize:"2rem",lineHeight: "1.2", wordBreak: "break-all" ,whiteSpace:"pre-wrap" }}>1. Estude profundamente o tema </h1>
          <p>Para fazer uma boa apresentação, o mais importante é conhecer bem o assunto. Dedique um tempo para revisar, pesquisar e compreender cada ponto do conteúdo.
  <HighlightText> Mesmo que você já tenha estudado bastante, revisar antes da apresentação ajuda a reforçar informações e evitar que algo importante passe despercebido.</HighlightText></p>
       </div>
@@ -37,7 +37,7 @@ export default function Apresentrabalho(){
 
     <section className={StyleTrabalho.containersection2}>
       <div className={StyleTrabalho.section2}>
-        <h1>2. Prefira temas que você domina</h1>
+        <h1 style={{fontSize:"2rem",lineHeight: "1.2", wordBreak: "break-all" ,whiteSpace:"pre-wrap" }}>2. Prefira temas que você domina</h1>
          <p>Se tiver liberdade para escolher o tema, opte por algo familiar. Muita gente escolhe um assunto que tem curiosidade, mas ainda não domina e isso pode prejudicar a segurança na hora de falar.
           <HighlightText>Escolher um conteúdo que você já conhece aumenta sua confiança e facilita sua explicação.</HighlightText></p>
       </div>
@@ -46,7 +46,7 @@ export default function Apresentrabalho(){
 
      <section className={StyleTrabalho.containersection2}>
       <div className={StyleTrabalho.section2}>
-        <h1>3. Treine sua apresentação</h1>
+        <h1 style={{fontSize:"2rem",lineHeight: "1.2", wordBreak: "break-all" ,whiteSpace:"pre-wrap" }}>3. Treine sua apresentação</h1>
          <p>Praticar faz toda a diferença. Apresente o trabalho para amigos e colegas de classe, familiares ou até para você mesma na frente do espelho.
             Esses ensaios ajudam a corrigir falhas, ajustar a fala e identificar pontos que precisam de mais clareza. Além disso, as perguntas dos outros podem te preparar melhor para o dia oficial.</p>
          </div>
@@ -55,7 +55,7 @@ export default function Apresentrabalho(){
 
     <section className={StyleTrabalho.containersection2}>
       <div className={StyleTrabalho.section2}>
-        <h1>4. Utilize recursos visuais</h1>
+        <h1 style={{fontSize:"2rem",lineHeight: "1.2", wordBreak: "break-all" ,whiteSpace:"pre-wrap" }}>4. Utilize recursos visuais</h1>
 
          <p>Evite ler textos longos durante a apresentação. Em vez disso, use <HighlightText> slides com tópicos curtos, imagens, vídeos, gráficos ou mapas mentais.</HighlightText>
 Esses elementos deixam a apresentação mais leve, prendem a atenção do público e servem como guia para você lembrar o que deve ser dito.</p>
@@ -64,7 +64,7 @@ Esses elementos deixam a apresentação mais leve, prendem a atenção do públi
        </section>
     <section className={StyleTrabalho.containersection2}>
       <div className={StyleTrabalho.section2}>
-        <h1>5. Observe outras apresentações</h1>
+        <h1 style={{fontSize:"2rem",lineHeight: "1.2", wordBreak: "break-all" ,whiteSpace:"pre-wrap" }}>5. Observe outras apresentações</h1>
         
          <p>Assista colegas apresentando ou acompanhe outras exposições do evento. Isso te ajuda a perceber o que funciona, o que pode ser melhorado e como diferentes pessoas estruturam suas falas.</p>
          
@@ -73,7 +73,7 @@ Esses elementos deixam a apresentação mais leve, prendem a atenção do públi
 
     <section className={StyleTrabalho.containersection2}>
       <div className={StyleTrabalho.section2}>
-        <h1>6.Se prossível, evite ser o primeiro </h1>
+        <h1 style={{fontSize:"2rem",lineHeight: "1.2", wordBreak: "break-all" ,whiteSpace:"pre-wrap" }}>6.Se prossível, evite ser o primeiro </h1>
          <p>Para quem sente insegurança, deixar outras pessoas apresentarem antes pode ajudar a se ambientar.
            Assistindo aos primeiros trabalhos, você entende o clima da banca ou da sala e se sente mais confortável quando chegar sua vez.</p>
          </div>
@@ -81,7 +81,7 @@ Esses elementos deixam a apresentação mais leve, prendem a atenção do públi
 
            <section className={StyleTrabalho.containersection2}>
       <div className={StyleTrabalho.section2}>
-        <h1>7.Vá direto ao ponto </h1>
+        <h1 style={{fontSize:"2rem",lineHeight: "1.2", wordBreak: "break-all" ,whiteSpace:"pre-wrap" }}>7.Vá direto ao ponto </h1>
          <p>Organize os tópicos que você pretende abordar e apresente apenas o que é necessário.
             Ser objetivo não significa falar pouco significa <HighlightText>manter o foco, evitando explicações exageradas ou informações que fogem do tema.</HighlightText></p>
          </div>
@@ -89,7 +89,7 @@ Esses elementos deixam a apresentação mais leve, prendem a atenção do públi
 
         <section className={StyleTrabalho.containersection2}>
       <div className={StyleTrabalho.section2}>
-        <h1>8.Interaja com o público </h1>
+        <h1 style={{fontSize:"2rem",lineHeight: "1.2", wordBreak: "break-all" ,whiteSpace:"pre-wrap" }}>8.Interaja com o público </h1>
          <p>Conversar com a plateia, fazer perguntas simples ou pedir um retorno rápido pode deixar sua apresentação mais natural e dinâmica.
             Essa interação quebra o gelo e ajuda a transmitir mais confiança.</p>
          </div>
@@ -97,7 +97,7 @@ Esses elementos deixam a apresentação mais leve, prendem a atenção do públi
 
            <section className={StyleTrabalho.containersection2}>
       <div className={StyleTrabalho.section2}>
-        <h1>9.Acredite no seu próprio trabalho</h1>
+        <h1 style={{fontSize:"2rem",lineHeight: "1.2", wordBreak: "break-all" ,whiteSpace:"pre-wrap" }}>9.Acredite no seu próprio trabalho</h1>
          <p>Confie no que você estudou e produziu. Muitas vezes achamos que não sabemos o suficiente, mas a dedicação que você teve até chegar ali já mostra que você tem conhecimento para apresentar.
 Lembre-se: ninguém espera que você saiba tudo, apenas que explique bem o que você pesquisou.</p>
          </div>
@@ -105,7 +105,7 @@ Lembre-se: ninguém espera que você saiba tudo, apenas que explique bem o que v
 
     <section className={StyleTrabalho.containersection2}>
       <div className={StyleTrabalho.section2}>
-        <h1>10.Construa um bom encerramento</h1>
+        <h1 style={{fontSize:"2rem",lineHeight: "1.2", wordBreak: "break-all" ,whiteSpace:"pre-wrap" }}>10.Construa um bom encerramento</h1>
          <p>Finalize de forma clara: sinalize que está concluindo, apresente suas considerações finais e, 
             se for o caso, indique possíveis desdobramentos futuros da pesquisa. 
             Um bom fechamento transmite segurança e mostra domínio do percurso do trabalho.</p>
@@ -139,7 +139,7 @@ Lembre-se: ninguém espera que você saiba tudo, apenas que explique bem o que v
 
   </article>
 <footer>
-  <FooterPag></FooterPag>
+  <FooterPag/>
 </footer>
 </div>
         </>

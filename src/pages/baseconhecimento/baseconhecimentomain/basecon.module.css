@@ -233,6 +233,7 @@
   .text h1{
     font-size:2.4rem;
     margin: auto 0;
+    text-decoration: underline 2px var(--blackCleanToggle);
   }
 
   .section2 h1{

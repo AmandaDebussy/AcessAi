@@ -114,7 +114,7 @@ function HomePag() {
       </div>
     </section>
     <div>
-       <FooterPag></FooterPag>
+       <FooterPag/>
     </div>
     </div>
     </>

@@ -168,7 +168,7 @@ export default  function GerenciaTempo(){
 
   </article>
   <footer>
-   <FooterPag></FooterPag>
+  <FooterPag/>
     </footer>
 </div>
         </>

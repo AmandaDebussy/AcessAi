@@ -74,8 +74,6 @@
 
 /* Botões das opções */
 .optionButton{
-  background-color: var(--background);
-  color: var(--blackClean);
   border: none;
   padding: 15px;
   border-radius: 8px;
@@ -85,8 +83,8 @@
 }
 
 .optionButton:hover{
-  background-color: var(--blackClean);
-  color: var(--background);
+  background-color:#1E1E1E;
+  color:#faf9f9 ;
   transform: scale(1.02);
 }
 
@@ -94,6 +92,7 @@
 .resultTitle{
   font-family: var(--fontgrown);
   font-size: 26px;
+  color: var(--blackClean);
 }
 
 .resultText{

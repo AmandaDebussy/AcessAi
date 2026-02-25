@@ -35,6 +35,8 @@ export default function TrilhaEstudo(){
 </section>
 
 
+
+
   <section className={trilhadeestudo.containerothersection}>
     <div className={trilhadeestudo.imagecontainerothersection}>
       <img src={Images.rapazcaminhando} alt="rapaz caminhando na montanha" />
@@ -63,36 +65,43 @@ export default function TrilhaEstudo(){
                 <QuizAluno/>
           </section>
   <section>
-    <div className={trilhadeestudo.featurescontainerSecondCard}>
-      {/* <h2>Qual é nosso objetivO ?</h2> */}
+  <div className={trilhadeestudo.featurescontainerSecondCard}>
+    <h2>O que esperamos de vocÊ ?</h2>
 
-      <div className={trilhadeestudo.cardswrapper}>
-        <div className={trilhadeestudo.cardSecond}>
-          <div className={trilhadeestudo.contentinsidecard}>
-            <p>
-              Auxiliar estudantes na <span className={trilhadeestudo.ColorTextCard}>elaboração de trabalhos acadêmicos</span>, com suporte em estrutura, formatação e organização.
-            </p>
-          </div>
-        </div>
-
-        <div className={trilhadeestudo.cardSecond}>
-          <div className={trilhadeestudo.contentinsidecard}>
-            <p>
-              Orientar no uso de normas, <span className={trilhadeestudo.ColorTextCard}>facilitar a pesquisa</span> e oferecer ferramentas de apoio para a produção acadêmica.
-            </p>
-          </div>
-        </div>
-
-        <div className={trilhadeestudo.cardSecond}>
-          <div className={trilhadeestudo.contentinsidecard}>
-            <p>
-              Promover autonomia, democratizar o conhecimento e <span className={trilhadeestudo.ColorTextCard}>incentivar a inclusão educacional em diferentes níveis.</span>
-            </p>
-          </div>
+    <div className={trilhadeestudo.cardswrapper}>
+      
+      <div className={trilhadeestudo.cardSecond}>
+        <div className={trilhadeestudo.contentinsidecard}>
+          <p>
+            Com base nas suas respostas, identificamos suas 
+            <span className={trilhadeestudo.ColorTextCard}> metas, dificuldades e prioridades atuais. </span>
+          </p>
         </div>
       </div>
+
+      <div className={trilhadeestudo.cardSecond}>
+        <div className={trilhadeestudo.contentinsidecard}>
+          <p>
+            Criamos uma 
+            <span className={trilhadeestudo.ColorTextCard}> jornada estratégica e organizada </span> 
+            para acelerar seu aprendizado de forma eficiente.
+          </p>
+        </div>
+      </div>
+
+      <div className={trilhadeestudo.cardSecond}>
+        <div className={trilhadeestudo.contentinsidecard}>
+          <p>
+            Agora você terá mais clareza, direção e 
+            <span className={trilhadeestudo.ColorTextCard}> acompanhamento do seu progresso </span> 
+            até alcançar seus objetivos.
+          </p>
+        </div>
+      </div>
+
     </div>
-  </section>
+  </div>
+</section>
 
   <FooterPag />
 </div>
