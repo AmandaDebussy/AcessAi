@@ -1,0 +1,274 @@
+:root{
+  --orange:#E27B44;
+  --blackClean:#1E1E1E;
+  --blackCleanToggle:#1E1E1E;
+  --grey:#575757;
+  --fontgrown:'Lalezar',sans-serif;
+  --font:'Open Sans', sans-serif;
+  --background:#f3f3f3;
+}
+
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+
+.backgroundpag{
+  background-color:var(--background);
+  transition:background-color .5s ease,color .5s ease;
+}
+
+.container{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:10px;
+  font-family:var(--fontgrown);
+  padding-top:6em;
+}
+
+.text{
+  max-width:500px;
+  margin:5em;
+}
+
+.text h1{
+  font-size:3rem;
+  color:var(--orange);
+}
+
+.text h2{
+  font-size:2.5rem;
+  color:var(--blackCleanToggle);
+}
+
+.text p{
+  color:var(--grey);
+  font-family:var(--font);
+  font-size:1rem;
+}
+
+.imagecontainer img{
+  max-width:450px;
+  display:block;
+}
+
+
+
+.linecontainer{
+ 
+  background-color: var(--orange);
+  height: 6px;
+  max-width: 50em;
+}
+
+.linecontainerleft{
+  margin-top: 6vh;
+  background-color: var(--orange);
+  height: 6px;
+  max-width: 50em;
+  margin-left: auto;
+
+}
+
+
+/* section de duvidas */
+.duvidasSection {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  gap: 30px;
+  padding: 60px 8%;
+  width: 80%;
+}
+
+.duvidaCard,
+.duvidaCardCenter {
+  background: linear-gradient(145deg, #1E1E1E, #111);
+  border-radius: 40px;
+  padding: 35px 50px;
+  position: relative;
+  color: white;
+  display: flex;
+  align-items: center;
+  min-height: 120px;
+}
+
+.duvidaCard p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.duvidaCardCenter p{
+    font-size: 18px;
+    text-align: right;
+}
+
+.duvidaCardCenter {
+  justify-content: center;
+  text-align: center;
+}
+
+/* LINHA LARANJA ESQUERDA */
+.linhaLaranja {
+  width: 6px;
+  height: 60px;
+  background-color: #E27B44;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+/* LINHA LARANJA DIREITA */
+.linhaLaranjaRight {
+  width: 6px;
+  height: 60px;
+  background-color: #E27B44;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+
+
+
+
+
+
+/*topicos de duvidas*/
+.topicosSection {
+  padding: 80px 8%;
+  background:var(--blackCleanToggle);
+  margin: 30px;
+  border-radius: 40px;
+}
+
+.tituloTopicos {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 40px;
+  color: var(--background);
+}
+
+.accordionContainer {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.accordionItem {
+  border-bottom: 1px solid var(--orange);
+  margin-bottom: 10px;
+}
+
+.accordionPergunta {
+  width: 100%;
+  background: none;
+  border: none;
+  padding: 20px 10px;
+  font-size: 18px;
+  text-align: left;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  transition: 0.3s ease;
+  color: var(--background);
+}
+
+.accordionPergunta:hover {
+  color: #E27B44;
+}
+
+.icon {
+  font-size: 22px;
+  color: #E27B44;
+}
+
+.accordionResposta {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+}
+
+.accordionResposta p {
+  padding: 0 10px 20px 10px;
+  color: var(--background);
+  line-height: 1.6;
+}
+
+.ativo {
+  max-height: 300px;
+}
+
+
+
+
+
+/* ================= RESPONSIVIDADE EXTRA ================= */
+
+/* Mobile pequeno */
+@media(max-width:360px){
+  .text h1{font-size:4.2rem}
+  .text h2{font-size:1.6rem}
+  .imagecontainer img,
+  .imagecontainerothersection img,
+  .imagecontainerothersection3 img{max-width:280px; margin-top: 2em;margin-bottom: -3em; }
+}
+
+/* Mobile médio */
+@media(max-width:480px){
+  .text{margin:2.5em}
+  .text h1{font-size:4.8rem}
+}
+
+@media(max-width:768px){
+  .BackgroundFooter{
+    grid-template-columns:1fr;
+    text-align:center;
+    padding:3em 2em;
+  }
+
+    .duvidasSection{width: 100%;}
+
+  .footercontent{
+    justify-content:center;
+  }
+
+  .contentfooterright{
+    text-align:center;
+  }
+
+  .footerbottom{
+    margin-top:2em;
+  }
+}
+
+
+/* Tablet */
+@media(min-width:769px) and (max-width:1024px){
+  .container,
+  .containerothersection,
+  .text{margin:3em}
+  .text h1{font-size:6rem}
+  .BackgroundFooter{padding:4em 5em}
+}
+
+/* Desktop grande */
+@media(min-width:1280px){
+  .container,
+  .containerothersection3{
+    max-width:1400px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .featurescontainer{gap:7rem}
+  .text h1{font-size:4.5rem}
+}
+
+/* Telas muito grandes */
+@media(min-width:1600px){
+  .container,
+  .containerothersection{max-width:1600px}
+  .text h1{font-size:3.8rem}/*alterei o tamanho pra 3.5*/
+  .BackgroundFooter{padding:5em 20em}
+}

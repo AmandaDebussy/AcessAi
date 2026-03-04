@@ -36,11 +36,12 @@ export default function TrilhaEstudo(){
 
 
 
-
+<div className={trilhadeestudo.linecontainerleft}></div>
   <section className={trilhadeestudo.containerothersection}>
     <div className={trilhadeestudo.imagecontainerothersection}>
-      <img src={Images.rapazcaminhando} alt="rapaz caminhando na montanha" />
+      <img src={Images.alvo} alt="alvo" />
     </div>
+    
     <div className={trilhadeestudo.textothersection}>
       <h1>Defina o Seu Objetivo!</h1>
       <h2>
@@ -48,23 +49,26 @@ export default function TrilhaEstudo(){
       </h2>
     </div>
   </section>
-
+  
+<div className={trilhadeestudo.linecontainer}></div>
   <section className={trilhadeestudo.containerothersection3}>
 
     <div className={trilhadeestudo.textothersection3}>
       <h1>Diagnóstico InteligentE!</h1>
-      <h2>
-       Identifique seus pontos fortes e prioridades com análise direcionada.
-      </h2>
+      <h2>Identifique seus pontos fortes e prioridades com análise direcionada.</h2>
+      <p>Abaixo separamos um teste para que voce possa identificar seu tipo de perfil acadêmico. ;D</p>
     </div>
-    <div className={trilhadeestudo.imagecontainerothersection3}>
+    
+    {/* <div className={trilhadeestudo.imagecontainerothersection3}>
       <img src={Images.alvo} alt="Estudante sorrindo" />
-    </div>
+    </div> */}
     </section>
           <section>
                 <QuizAluno/>
           </section>
   <section>
+
+
   <div className={trilhadeestudo.featurescontainerSecondCard}>
     <h2>O que esperamos de vocÊ ?</h2>
 

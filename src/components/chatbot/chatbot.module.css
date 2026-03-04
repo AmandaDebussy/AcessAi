@@ -21,6 +21,10 @@
   z-index: 999;
 }
 
+.chatButton img{
+  border-radius: 50%;
+  max-width: 70px;   
+}
 
 .chatContainer {
   position: fixed;
@@ -68,7 +72,7 @@
 
 .userMessage {
   align-self: flex-end;
-  background: #e0e7ff;
+  background: var(--orange);
   padding: 8px;
   border-radius: 8px;
   max-width: 80%;
@@ -83,9 +87,12 @@
   white-space: pre-line;
 }
 
+
+
+
 .chatInputArea {
   display: flex;
-  border-top: 1px solid #ddd;
+  border-top: 1px solid var(--orange);
 }
 
 .chatInputArea input {

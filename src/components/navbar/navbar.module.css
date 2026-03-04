@@ -1,8 +1,12 @@
 :root {
   --orange: #E27B44;
   --blackClean: #1E1E1E;
+   --blackCleanToggle:#1E1E1E;
+    --background:#f3f3f3;
   --font: 'Open Sans', sans-serif;
+  
 }
+
 
 /* NAVBAR PRINCIPAL */
 /* .BackGroundNavBar {
@@ -17,6 +21,13 @@
   height: 80px;
   
 } */
+body {
+  margin: 0;
+  background-color: var(--background); 
+  transition: all 0.4s ease;
+}
+
+
 
 .BackGroundNavBar {
   background-color: var(--orange);
@@ -27,8 +38,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80px;
+  height: 70px;
   padding: 0 1rem;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+
+
 }
 
 
@@ -112,6 +130,35 @@
 
 
 
+@media (max-width: 868px){
+  .BackGroundNavBar {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+
+}
+
+.ContentLinks {
+  width: 94%;
+  max-width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.navContainer ul {
+  display: flex;
+  list-style: none;
+  gap: 4rem;
+  padding: 0;
+  margin: 0;
+}
+
+}
+
+
+
 
 
 
@@ -123,16 +170,29 @@
 
 /* RESPONSIVIDADE */
 @media (max-width: 768px) {
+
+
+.BackGroundNavBar {
+  background-color: var(--orange);
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  width: 100%;
+
+}
+
+
+
+
   .navContainer {
   position: absolute;
-  top: 80px;
+  top: 20px;
   left: 0;
   width: 80%;
   background-color: var(--orange);
   flex-direction: column;
   overflow: hidden;
   max-height: 0; /* fechado */
-  z-index: 999;
+  z-index: -999;
   transition: max-height 0.5s ease-in-out; /* mais suave */
   }
 
@@ -144,7 +204,7 @@
   .navContainer ul {
     flex-direction: column;
     gap: 3.6rem;
-    padding: 6rem 0;
+    padding: 10rem 0;
     align-items: center;
     height:100vh; 
   }

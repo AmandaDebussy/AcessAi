@@ -1,5 +1,6 @@
 import { useState } from "react";
 import styles from "./chatbot.module.css";
+import Images from "../images";
 
 
 
@@ -13,7 +14,7 @@ export default function ChatBot() {
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState<Message[]>([
     { 
-      text: "Oi! Como eu  Posso te ajudar?  com ansiedade, estrutura do trabalho, slides ou oratória.", 
+      text: "Oi, eu sou o Livrinho!\n Como eu Posso te ajudar? \n\n - com ansiedade \n - estrutura do trabalho\n - slides \n - oratória.", 
       sender: "bot" 
     }
   ]);
@@ -45,7 +46,8 @@ export default function ChatBot() {
       ansiedade: ["ansiedade", "nervoso", "medo", "inseguro"],
       estrutura: ["estrutura", "trabalho", "organizar", "organização"],
       slides: ["slide", "slides", "apresentação", "visual"],
-      oratoria: ["oratória", "falar", "voz", "postura"]
+      oratoria: ["oratória","oratoria", "falar", "voz", "postura"],
+      obrigada: ["obrigado","obrigada","valeu pela ajuda"]
     };
 
 
@@ -65,9 +67,11 @@ export default function ChatBot() {
     if (temas.oratoria.some(p => lower.includes(p))) {
       return "Fale devagar, mantenha contato visual e evite ler os slides. Pratique em voz alta.";
     }
-
+     if(temas.obrigada.some(p=>lower.includes(p))){
+       return "Eu que agradeço pela paciencia, te desejo sucesso na sua caminhada! 🧡 "
+     }
    
-    
+
     return "Não entendi muito bem 😅 Você pode perguntar sobre ansiedade, estrutura, slides ou oratória.";
   }
 
@@ -79,13 +83,13 @@ export default function ChatBot() {
         className={styles.chatButton} 
         onClick={() => setIsOpen(!isOpen)}
       >
-        💬
+        <img src={Images.livrinho} alt="" />
       </div>
 
       {isOpen && (
         <div className={styles.chatContainer}>
           <div className={styles.chatHeader}>
-            Assistente Trilha
+            Assistente Livrinho
           </div>
 
           <div className={styles.chatMessages}>

@@ -27,7 +27,8 @@ import map from '../../public/img/trilhaEstudo/map.png'
 import rapazcaminhando from '../../public/img/trilhaEstudo/rapazcaminhando.png'
 import vetordebolinhas from '../../public/img/trilhaEstudo/Vector.png'
 import alvo from '../../public/img/trilhaEstudo/alvo.png'
-
+import livrinho from '../../public/img/chatboticon/livrinho.png'
+import MulherDuvida from '../../public/img/duvidas/mulhercomduvida.png'
 
 
 
@@ -65,7 +66,9 @@ indice,
 map,
 rapazcaminhando,
 vetordebolinhas,
-alvo
+alvo,
+livrinho,
+MulherDuvida
 
 
 }

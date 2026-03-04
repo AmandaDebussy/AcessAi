@@ -19,6 +19,9 @@ body.DarkMode {
   
 }
 
+
+
+
 /*buttom mode dark and ligh*/
 
 .theme-toggle {
@@ -28,9 +31,14 @@ body.DarkMode {
   /* padding: 0.8rem 1.6rem; */
   /* margin-left: 60px; */
   position: relative;
-  left: 30px;
+  left: 20px; /*mudei de 30 para 10*/
   font-family: var(--font);
   font-size: 1.2rem;
   cursor: pointer;
   transition: all 0.3s ease;
 }
+
+
+
+
+

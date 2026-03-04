@@ -96,24 +96,147 @@
 
 
 
-/* CARDS */
-.featurescontainer{
+
+
+
+/* SEÇÕES */
+.containerothersection{
   display:flex;
+  align-items:center;
   justify-content:center;
-  gap:6rem;
-  margin:2rem 0;
   flex-wrap:wrap;
-  padding-top:4em;
+  /* gap:50px; */
+  font-family:var(--fontgrown);
+  margin-top:8em;
 }
 
-.featurescontainerSecondCard{
+.containerothersection3{
   display:flex;
-  flex-direction:column;
   align-items:center;
-  padding-top:10em;
-  gap:3rem;
-  background:url('../public/img/mainimage/flyingbook.png') center/contain no-repeat;
-  text-decoration: underline 2px var(--blackCleanToggle);
+  justify-content:center;
+}
+
+
+.linecontainer{
+  background-color: var(--orange);
+  height: 6px;
+  max-width: 50em;
+}
+
+.linecontainerleft{
+   background-color: var(--orange);
+  height: 6px;
+  max-width: 50em;
+  margin-left: auto;
+
+}
+
+
+.textothersection{
+  max-width:500px;
+  margin:5em;
+ 
+}
+
+
+.textothersection{
+ padding-top: 10em;
+}
+
+
+
+.textothersection3{
+   margin-top:8em;
+   max-width: 55em;
+   
+}
+
+
+.textothersection3 p{
+font-family: var(--font);
+color: var(--blackCleanToggle);
+}
+
+
+.textothersection h1{
+  font-size:3.5rem;
+  color:var(--orange);
+  margin-top: -3.5em;
+}
+
+.textothersection3 h1,h2{
+   font-size:3.5rem;
+  color:var(--orange);
+  font-family: var(--fontgrown);
+}
+
+
+
+
+.textothersection h2,
+.textothersection3 h2{
+  font-size:2.7rem;
+  color:var(--blackCleanToggle);
+}
+
+.imagecontainerothersection{
+  max-width:450px;
+  display:block;
+  margin-top: 4em;
+  margin-bottom: 7em;
+  border-radius: 50%;
+  
+}
+
+.imagecontainerothersection img{
+  border-radius: 20%;
+}
+
+
+
+
+
+/* FOOTER */
+.BackgroundFooter{
+  background-color:var(--blackClean);
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  grid-template-rows:auto auto;
+  align-items:center;
+  gap:2rem;
+  padding:4em 6em;
+}
+
+.footercontent{
+  display:flex;
+  align-items:center;
+  gap:12px;
+}
+
+.footercontent img{
+  max-width:180px;
+}
+
+.contentfooterright{
+  font-family:var(--font);
+  color:var(--grey);
+  text-align:right;
+  font-size:.9rem;
+}
+
+.contentAutor{
+  font-style:italic;
+  display:block;
+  margin-bottom:5px;
+}
+
+.footerbottom{
+  grid-column:1 / -1;
+  font-family:var(--font);
+  text-align:center;
+  margin-top:3em;
+  color:#a1a1a1;
+  font-size:.7rem;
 }
 
 .featurescontainerSecondCard h2{
@@ -174,114 +297,25 @@
   color:var(--orange);
 }
 
-
-
-
-/* SEÇÕES */
-.containerothersection,
-.containerothersection3{
+.featurescontainer{
   display:flex;
-  align-items:center;
   justify-content:center;
+  gap:6rem;
+  margin:2rem 0;
   flex-wrap:wrap;
-  gap:50px;
-  font-family:var(--fontgrown);
-  margin-top:8em;
+  padding-top:4em;
 }
 
-
-
-
-.textothersection,
-.textothersection3{
-  max-width:500px;
-  margin:5em;
-}
-
-.textothersection3{
-  max-width:400px;
-}
-
-.textothersection h1{
-  font-size:3.5rem;
-  color:var(--orange);
-  margin-top: -3.5em;
-}
-
-.textothersection3 h1{
-   font-size:3.5rem;
-  color:var(--orange);
-}
-
-
-
-
-
-
-
-.textothersection h2,
-.textothersection3 h2{
-  font-size:2.7rem;
-  color:var(--blackCleanToggle);
-}
-
-.imagecontainerothersection,
-.imagecontainerothersection3 img{
-  max-width:450px;
-  display:block;
-  margin-top: 4em;
-  margin-bottom: 7em;
-  border-radius: 50%;
-  
-}
-
-.imagecontainerothersection img{
-  border-radius: 50%;
-}
-
-
-/* FOOTER */
-.BackgroundFooter{
-  background-color:var(--blackClean);
-  display:grid;
-  grid-template-columns:1fr 1fr;
-  grid-template-rows:auto auto;
-  align-items:center;
-  gap:2rem;
-  padding:4em 6em;
-}
-
-.footercontent{
+.featurescontainerSecondCard{
   display:flex;
+  flex-direction:column;
   align-items:center;
-  gap:12px;
+  padding-top:10em;
+  gap:3rem;
+  background:url('../public/img/mainimage/flyingbook.png') center/contain no-repeat;
+  text-decoration: underline 2px var(--blackCleanToggle);
 }
 
-.footercontent img{
-  max-width:180px;
-}
-
-.contentfooterright{
-  font-family:var(--font);
-  color:var(--grey);
-  text-align:right;
-  font-size:.9rem;
-}
-
-.contentAutor{
-  font-style:italic;
-  display:block;
-  margin-bottom:5px;
-}
-
-.footerbottom{
-  grid-column:1 / -1;
-  font-family:var(--font);
-  text-align:center;
-  margin-top:3em;
-  color:#a1a1a1;
-  font-size:.7rem;
-}
 
 
 
