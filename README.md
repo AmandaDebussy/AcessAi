@@ -72,10 +72,14 @@ npm install
 npm run dev
 ## 🚀 Visão Futura
 
-O AcessAi está em constante evolução. Entre as próximas metas estão:
+```
+
+## O AcessAi está em constante evolução. Entre as próximas metas estão:
+
 - Integração com APIs educacionais externas;  
 - Área personalizada para usuários;  
 - Ferramentas de suporte e acessibilidade ampliadas.  
+- Mais conteudo para estudo e aprimoramento
 
 ---
 
@@ -94,6 +98,6 @@ Este projeto é de uso educacional e aberto para fins de aprendizado e aprimoram
 
 ## 💬 Contato
 
-Desenvolvido por **Amanda Debussy**  
+Desenvolvido por **Amanda Debussy( Mandy )**  
 📧 Entre em contato para saber mais ou colaborar com o projeto.
 
