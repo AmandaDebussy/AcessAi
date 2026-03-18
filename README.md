@@ -1,46 +1,75 @@
 
 # 🌐 AcessAi
 
-O **AcessAi** é um projeto desenvolvido com o objetivo de **auxiliar estudantes e pessoas interessadas** a acessarem conteúdos educacionais de forma **simples, intuitiva e acessível**.  
-A plataforma busca **aproximar o conhecimento** de quem precisa, oferecendo um ambiente digital leve e fácil de navegar.
+# 📚 AcessAi
+
+O **AcessAi** é uma plataforma web desenvolvida com o objetivo de democratizar o acesso ao conhecimento, oferecendo conteúdos gratuitos organizados de forma estruturada, acessível e intuitiva.
+
+A proposta do projeto é facilitar a jornada de estudos, principalmente para estudantes que utilizam o celular como principal ferramenta de aprendizado, promovendo inclusão digital e autonomia educacional.
 
 ---
 
-## 🎯 Objetivo
+## 🚀 Tecnologias utilizadas
 
-O AcessAi tem como missão **promover a inclusão digital e o acesso à informação**, oferecendo recursos que ajudam estudantes a encontrar conteúdos relevantes, orientações e ferramentas que apoiem o aprendizado autônomo.
-
----
-
-## 💡 Principais Funcionalidades
-
-- 🔍 **Busca inteligente** por temas e conteúdos educacionais.  
-- 📘 **Base de conhecimento** com materiais organizados por categoria.  
-- 💬 **Interação com o usuário** através de feedbacks e mensagens personalizadas.  
-- 🎨 **Interface responsiva e acessível**, com foco na usabilidade e na experiência do usuário.  
-- ⚙️ **Design modular**, permitindo expansão futura com novos recursos e integrações.
+- React  
+- Vite  
+- TypeScript  
+- CSS Modules  
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 💡 Sobre o projeto
 
-- **Front-end:** React + TypeScript  
-- **Estilização:** CSS Modules  
-- **Gerenciamento de rotas:** React Router DOM  
-- **Ambiente de desenvolvimento:** Vite  
-- **Controle de versão:** Git e GitHub  
+O AcessAi surgiu com a proposta de resolver uma dificuldade comum: encontrar conteúdos gratuitos de qualidade organizados de forma clara na internet.
+
+Mais do que reunir links, o projeto aplica um processo de **curadoria de conteúdo**, garantindo que os materiais sejam:
+
+- Confiáveis  
+- Acessíveis  
+- Relevantes para o público  
+
+Além disso, a plataforma foi pensada com foco em:
+
+- Uso mobile-first  
+- Navegação intuitiva  
+- Continuidade no aprendizado  
 
 ---
 
-## 👩‍💻 Público-Alvo
+## 🎯 Funcionalidades
 
-O projeto é voltado principalmente para:
-- Estudantes do ensino médio, técnico e superior;
-- Pessoas em busca de conteúdos de aprendizado acessíveis;
-- Instituições interessadas em compartilhar conhecimento de forma aberta.
+- Organização de trilhas de estudo  
+- Curadoria de conteúdos gratuitos  
+- Seção de dúvidas frequentes  
+- Navegação simples e acessível  
+- Conteúdos baseados em experiências reais  
 
 ---
 
+## 📱 Design e Acessibilidade
+
+O projeto segue princípios de design centrado no usuário, com foco em:
+
+- Interfaces limpas e organizadas  
+- Facilidade de uso em dispositivos móveis  
+- Redução de barreiras no acesso à informação  
+
+---
+
+## 📦 Como rodar o projeto
+
+```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/acessai.git
+
+# Acesse a pasta
+cd acessai
+
+# Instale as dependências
+npm install
+
+# Execute o projeto
+npm run dev
 ## 🚀 Visão Futura
 
 O AcessAi está em constante evolução. Entre as próximas metas estão:
