@@ -63,7 +63,7 @@ function HomePag() {
          <h2> Tenha seu manual acadêmico acessível a qualquer hora, em qualquer dispositivo. </h2>
       </div>
       <div className='imagecontainerothersection'>
-        <img src={Images.GirlWithBook} alt="Estudante sorrindo" />
+        <img src={Images.GirlWithBook} alt="Estudante com livro" />
       </div>
     </section>
 
@@ -103,7 +103,7 @@ function HomePag() {
     </section>
     <section className='containerothersection3'>
       <div className='imagecontainerothersection3'>
-        <img src={Images.girlallbooks} alt="Estudante sorrindo" />
+        <img src={Images.girlallbooks} alt="Estudante com o braço pra cima" />
       </div>
       <div className='textothersection3'>
         <h1>Tudo isso feito para vocÊ !</h1>

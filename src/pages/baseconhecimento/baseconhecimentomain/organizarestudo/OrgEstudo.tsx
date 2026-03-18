@@ -2,6 +2,7 @@ import HighlightText from '../../../../components/Marcatext/hightlight'
 import  MyButton  from '../../../../components/buttonfunction/buttonreact'
 import StyleEstudo from './estudo.module.css'
 import FooterPag from '../../../../components/footer/footer'
+import ChatBot from '../../../../components/chatbot/chatbot'
 
 
 export default function OrganizaEstudo(){
@@ -10,6 +11,7 @@ export default function OrganizaEstudo(){
 
     return(
   <>
+  <ChatBot/>
 <div className={StyleEstudo.backgroundpag}>
    <section className={StyleEstudo.container}>
       <div className={StyleEstudo.text}>

@@ -4,6 +4,7 @@ import  MyButton  from '../../../../components/buttonfunction/buttonreact'
 import Images from '../../../../components/images'
 import AbntGenerator from '../../../../components/abngerador/AbntGenerator'
 import FooterPag from '../../../../components/footer/footer'
+import ChatBot from '../../../../components/chatbot/chatbot'
 
 export default function FormatContentAbnt(){
 
@@ -12,6 +13,7 @@ export default function FormatContentAbnt(){
 
     return(
   <>
+  <ChatBot/>
 <div className={formatContent.backgroundpag}>
    <section className={formatContent.container}>
       <div className={formatContent.text}>

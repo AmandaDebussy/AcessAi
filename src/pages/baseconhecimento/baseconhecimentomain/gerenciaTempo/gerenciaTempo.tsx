@@ -3,6 +3,7 @@ import  MyButton  from '../../../../components/buttonfunction/buttonreact'
 import StyleGerenciaTempo from './gerenciaTemp.module.css'
 // import Images from '../../../../components/images'
 import FooterPag from '../../../../components/footer/footer'
+import ChatBot from '../../../../components/chatbot/chatbot'
 
 
 
@@ -14,6 +15,7 @@ export default  function GerenciaTempo(){
 
     return(
   <>
+  <ChatBot/>
 <div className={StyleGerenciaTempo.backgroundpag}>
    <section className={StyleGerenciaTempo.container}>
       <div className={StyleGerenciaTempo.text}>
@@ -37,7 +39,7 @@ export default  function GerenciaTempo(){
 
 <section className={StyleGerenciaTempo.containersection2}>
 <div className={StyleGerenciaTempo.section2}>
-  <h1>1. Planeje sua semana</h1>
+  <h1 style={{fontSize:"2rem",lineHeight: "1.2", wordBreak: "break-all" ,whiteSpace:"pre-wrap" }}>1. Planeje sua semana</h1>
   <p>
     Comece organizando suas tarefas da semana. Anote provas, entregas, compromissos e horários fixos.
     <HighlightText>Ter uma visão geral evita esquecimentos e ajuda a distribuir melhor o seu tempo.</HighlightText>
@@ -47,7 +49,7 @@ export default  function GerenciaTempo(){
 
 <section className={StyleGerenciaTempo.containersection2}>
 <div className={StyleGerenciaTempo.section2}>
-  <h1>2. Defina prioridades</h1>
+  <h1 style={{fontSize:"2rem",lineHeight: "1.2", wordBreak: "break-all" ,whiteSpace:"pre-wrap" }}>2. Defina prioridades</h1>
   <p>
     Nem tudo tem o mesmo nível de urgência. Identifique o que é mais importante e o que pode esperar.
     <HighlightText>Focar no essencial primeiro reduz a ansiedade e melhora sua produtividade.</HighlightText>
@@ -57,7 +59,7 @@ export default  function GerenciaTempo(){
 
 <section className={StyleGerenciaTempo.containersection2}>
 <div className={StyleGerenciaTempo.section2}>
-  <h1>3. Estabeleça metas realistas</h1>
+  <h1 style={{fontSize:"2rem",lineHeight: "1.2", wordBreak: "break-all" ,whiteSpace:"pre-wrap" }}>3. Estabeleça metas realistas</h1>
   <p>
     Evite listas enormes e impossíveis de cumprir. Prefira metas menores e alcançáveis.
     Cumprir pequenas tarefas gera motivação e sensação de progresso ao longo do dia.
@@ -67,7 +69,7 @@ export default  function GerenciaTempo(){
 
 <section className={StyleGerenciaTempo.containersection2}>
 <div className={StyleGerenciaTempo.section2}>
-  <h1>4. Use técnicas de organização</h1>
+  <h1 style={{fontSize:"2rem",lineHeight: "1.2", wordBreak: "break-all" ,whiteSpace:"pre-wrap" }}>4. Use técnicas de organização</h1>
   <p>
     Métodos como checklist, agenda, planners ou a técnica Pomodoro podem ajudar bastante.
     <HighlightText>O importante é escolher a ferramenta que melhor se adapta à sua rotina.</HighlightText>
@@ -77,7 +79,7 @@ export default  function GerenciaTempo(){
 
 <section className={StyleGerenciaTempo.containersection2}>
 <div className={StyleGerenciaTempo.section2}>
-  <h1>5. Evite a procrastinação</h1>
+  <h1 style={{fontSize:"2rem",lineHeight: "1.2", wordBreak: "break-all" ,whiteSpace:"pre-wrap" }}>5. Evite a procrastinação</h1>
   <p>
     Deixar tudo para depois só aumenta a pressão. Sempre que possível, comece, mesmo que seja aos poucos.
     Muitas vezes, o mais difícil é dar o primeiro passo.
@@ -87,7 +89,7 @@ export default  function GerenciaTempo(){
 
 <section className={StyleGerenciaTempo.containersection2}>
 <div className={StyleGerenciaTempo.section2}>
-  <h1>6. Saiba dizer não</h1>
+  <h1 style={{fontSize:"2rem",lineHeight: "1.2", wordBreak: "break-all" ,whiteSpace:"pre-wrap" }}>6. Saiba dizer não</h1>
   <p>
     Assumir mais tarefas do que consegue cumprir prejudica sua organização.
     Respeitar seus limites é essencial para manter uma rotina equilibrada e saudável.
@@ -97,7 +99,7 @@ export default  function GerenciaTempo(){
 
 <section className={StyleGerenciaTempo.containersection2}>
 <div className={StyleGerenciaTempo.section2}>
-  <h1>7. Organize seu ambiente</h1>
+  <h1 style={{fontSize:"2rem",lineHeight: "1.2", wordBreak: "break-all" ,whiteSpace:"pre-wrap" }}>7. Organize seu ambiente</h1>
   <p>
     Um espaço bagunçado pode atrapalhar a concentração.
     <HighlightText>Ambientes organizados ajudam o cérebro a focar melhor nas tarefas.</HighlightText>
@@ -107,7 +109,7 @@ export default  function GerenciaTempo(){
 
 <section className={StyleGerenciaTempo.containersection2}>
 <div className={StyleGerenciaTempo.section2}>
-  <h1>8. Faça pausas estratégicas</h1>
+  <h1 style={{fontSize:"2rem",lineHeight: "1.2", wordBreak: "break-all" ,whiteSpace:"pre-wrap" }}>8. Faça pausas estratégicas</h1>
   <p>
     Descansar também faz parte da produtividade. Pausas curtas ajudam a manter o foco e evitam o cansaço mental.
     Estudar por horas sem parar nem sempre significa render mais.
@@ -117,7 +119,7 @@ export default  function GerenciaTempo(){
 
 <section className={StyleGerenciaTempo.containersection2}>
 <div className={StyleGerenciaTempo.section2}>
-  <h1>9. Revise sua rotina</h1>
+  <h1 style={{fontSize:"2rem",lineHeight: "1.2", wordBreak: "break-all" ,whiteSpace:"pre-wrap" }}>9. Revise sua rotina</h1>
   <p>
     No fim do dia ou da semana, avalie o que funcionou e o que pode melhorar.
     Ajustar sua organização constantemente faz parte do processo de aprendizado.
@@ -127,7 +129,7 @@ export default  function GerenciaTempo(){
 
 <section className={StyleGerenciaTempo.containersection2}>
 <div className={StyleGerenciaTempo.section2}>
-  <h1>10. Respeite seu próprio ritmo</h1>
+  <h1 style={{fontSize:"2rem",lineHeight: "1.2", wordBreak: "break-all" ,whiteSpace:"pre-wrap" }}>10. Respeite seu próprio ritmo</h1>
   <p>
     Cada pessoa tem um tempo diferente para aprender e produzir.
     Comparar-se com os outros só gera frustração. O mais importante é evoluir no seu próprio ritmo.

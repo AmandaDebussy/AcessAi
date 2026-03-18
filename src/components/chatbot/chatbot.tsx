@@ -1,6 +1,8 @@
-import { useState } from "react";
+import { useState } from "react"; //useEffect
 import styles from "./chatbot.module.css";
 import Images from "../images";
+
+
 
 
 
@@ -12,6 +14,24 @@ interface Message {
 
 export default function ChatBot() {
   const [isOpen, setIsOpen] = useState(false);
+
+
+  // const //[mensagemAparecendo,setMensagemAparecendo]= useState(true)
+
+  // useEffect(()=>{
+
+  //   const time = setTimeout(() => {
+  //     setMensagemAparecendo(false)
+  //   },1000);
+
+  //   return ()=>{
+  //     clearTimeout(time);
+  //   }
+  // },[]);
+
+
+
+  
   const [messages, setMessages] = useState<Message[]>([
     { 
       text: "Oi, eu sou o Livrinho!\n Como eu Posso te ajudar? \n\n - com ansiedade \n - estrutura do trabalho\n - slides \n - oratória.", 
@@ -83,8 +103,14 @@ export default function ChatBot() {
         className={styles.chatButton} 
         onClick={() => setIsOpen(!isOpen)}
       >
+        {/* {mensagemAparecendo &&(
+          <div className={styles.messagem}>
+            Oi, Sou o livrinho!
+          </div>
+        )} */}
         <img src={Images.livrinho} alt="" />
       </div>
+      
 
       {isOpen && (
         <div className={styles.chatContainer}>

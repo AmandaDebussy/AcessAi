@@ -227,53 +227,117 @@
 
 
 
-@media(max-width: 768px){
 
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  font-family: var(--fontgrown);
-  padding-top: 2em;
-  text-align: left;
+@media(max-width:480px){
+  .container{
+    padding-top:2em;
+  }
+
+
+  .textcontent2{
+     font-size: 1.0em;
+  }
+
+  .text,
+  .sectiontextarea{
+    max-width:90%;
+    margin:2em auto;
+  }
+
+
+  
+
+  .contentsumary{
+    font-size: 15px;
+  }
+
+  .text h1{
+    font-size:2.5rem;
+    width: 100%;
+    max-width: 400px;
+    margin-left: 0;
+    text-decoration: underline 2px var(--blackCleanToggle);
+  }
+
+
+  .text p{
+    margin-left: 0;
+  }
+
+  .section2 h1{
+    font-size:1.8rem;
+  }
+
+  .sectiontextarea h1{
+    font-size:1.6rem;
+  }
+
+  .text p,
+  .section2 p{
+    font-size:1rem;
+  }
+
+
+  .sectionwithcite{
+    font-size: 10px;
+  }
+
+.containersectiontextarea{
+  font-size: 10px;
+}
+
 
 }
 
-.text {
-  max-width: 400px;/*Tive que aumentar pra ficar bacanudo*/
-  margin: 0em;
-  font-size: 5rem;
-  color: var(--orange);
-  margin-top: 1.5em;
-  margin-bottom: 1em;
-}
-
-.text h1{
-  font-size: 0.7em;
-  max-width: 700px;
-  margin: 0 auto;
-}
-
-.text p{
-  margin: 0 auto;
-}
 
 
 
-.textcontent2 p {
-  max-width: 400px;/*vou arrumar isso aqui algum dia antes do dia 11 socorr*/
-}
 
-.section2 h1 {
-  font-size: 30px !important;
-  margin: 0;
-  color: var(--orange);
+
+
+
+ 
+/* ================= MOBILE / TABLET ================= */
+
+@media(max-width:768px){
+  .text,
+  .textcontent2,
+  .sectiontextarea{
+    max-width:85%;
+    margin:3em auto;
+  }
+
+  .section2 h1{
+    font-size:2rem;
+  }
+
+  /* .sectiontextarea h1{
+    font-size:1.8rem;
+  } */
+
+      /* aqui é o tamanho da fonte h1 .text h1{
+    font-size:2.7rem;
+  } */
+
   
 }
 
 
-}
 
+/* ================= DESKTOP GRANDE ================= */
+
+@media(min-width:1280px){
+  .container,
+  .containertext,
+  .containersection2,
+  .containersectiontextarea{
+    max-width:1400px;
+    margin:0 auto;
+  }
+
+  .text h1{
+    font-size:5.5rem;
+  }
+}
 
 

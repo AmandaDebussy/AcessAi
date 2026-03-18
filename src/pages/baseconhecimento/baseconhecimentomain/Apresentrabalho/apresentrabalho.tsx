@@ -2,13 +2,16 @@ import HighlightText from '../../../../components/Marcatext/hightlight'
 import  MyButton  from '../../../../components/buttonfunction/buttonreact'
 import StyleTrabalho from './trabalho.module.css'
 import FooterPag from '../../../../components/footer/footer'
+import ChatBot from '../../../../components/chatbot/chatbot'
 // import Images from '../../../../components/images'
 
 
 export default function Apresentrabalho(){
  
    return(
+    
   <>
+  <ChatBot />
 <div className={StyleTrabalho.backgroundpag}>
    <section className={StyleTrabalho.container}>
       <div className={StyleTrabalho.text}>
@@ -115,7 +118,7 @@ Lembre-se: ninguém espera que você saiba tudo, apenas que explique bem o que v
         <section className={StyleTrabalho.containersection2}>
       <div className={StyleTrabalho.section2}>
         <h1>Para finalizar 😎 </h1>
-         <p>A apresentação tem começo, meio e fim e manter a energia durante toda a fala é essencial. Treine os momentos de maior destaque, organize sua fala e aceite que <span className="fw-bold">você já fez um ótimo trabalho até aqui.</span> 
+         <p>A apresentação tem começo, meio eç fim e manter a energia durante toda a fala é essencial. Treine os momentos de maior destaque, organize sua fala e aceite que <span className="fw-bold">você já fez um ótimo trabalho até aqui.</span> 
              <br />Agora é só enfrentar o nervosismo e compartilhar seu conhecimento com outras pessoas!🎉 </p>
          </div>
        </section>
